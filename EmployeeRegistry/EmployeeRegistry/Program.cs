@@ -7,9 +7,8 @@ class Program
     static List<Job> jobs;
     static void Main(string[] args)
     {
-        employees = new List<Employee>();
-        jobs = new List<Job>();
-
+        ReadJobDataFromFile();
+        ReadEmployeeRegistryFromFile();
         WelcomeUser();
 
         int resp = -1;
@@ -37,7 +36,7 @@ class Program
         Console.WriteLine("  [4] - View Employee Info");
         Console.WriteLine("  [5] - Edit Employee]");
         Console.WriteLine("  [6] - View Job Registry");
-        Console.WriteLine("  [7] - Create New Job");
+        //Console.WriteLine("  [7] - Create New Job");
         Console.WriteLine("  [0] - Quit");
 
         string strResp = Console.ReadLine();
@@ -56,10 +55,9 @@ class Program
         switch (_action)
         {
             case 0: // Quit
-                Console.WriteLine("Zero");
                 break;
             case 1: // view employee registry
-                Console.WriteLine("One");
+                ViewEmployeeRegistry();
                 break;
             case 2: // hire new employee
                 Console.WriteLine("Two");
@@ -80,16 +78,18 @@ class Program
                 Console.WriteLine("Seven");
                 break;
             default: // other
-                Console.WriteLine("Invalid action indicated...\n");
+                Console.WriteLine("Invalid action indicated...");
                 break;
         }
+
+        Console.WriteLine();
     }
 
     static void ReadJobDataFromFile()
     {
         jobs = new List<Job>();
 
-        string binPath = Path.Combine(Directory.GetCurrentDirectory(), "bin"); //get relative path with /bin/ appended
+        string binPath = Path.Combine(Directory.GetCurrentDirectory(), "..", ".."); //get relative path to bin
         string jobDataFilePath = Path.Combine(binPath, "job-data.csv"); //get job data file path
 
         try
@@ -118,7 +118,7 @@ class Program
     {
         employees = new List<Employee>();
 
-        string binPath = Path.Combine(Directory.GetCurrentDirectory(), "bin"); //get relative path with /bin/ appended
+        string binPath = Path.Combine(Directory.GetCurrentDirectory(), "..", ".."); //get relative path to bin
         string empRegFilePath = Path.Combine(binPath, "employee-registry.csv"); //get employee registry file path
 
         try
@@ -132,12 +132,16 @@ class Program
                 string jobcode = empParts[2];
                 string strWage = empParts[3];
                 DateTime startDate = DateTime.Parse(empParts[4]);
-                DateTime termDate = DateTime.Parse(empParts[5]);
                 string status = empParts[6];
 
                 Wage wage = new Wage(strWage);
                 Job job = GetJobFromRegistry(jobcode);
 
+                DateTime termDate = DateTime.MinValue;
+                if (empParts[5] != "")
+                {
+                    termDate = DateTime.Parse(empParts[5]);
+                }
                 Employee emp = new Employee(emplid, name, startDate, job, wage, termDate, status);
                 employees.Add(emp);
             }
@@ -159,5 +163,14 @@ class Program
         }
 
         return null;
+    }
+
+    static void ViewEmployeeRegistry()
+    {
+        Console.WriteLine("Employee Registry:");
+        for (int i = 0; i < employees.Count; i++)
+        {
+            Console.WriteLine(employees[i].ToString());
+        }
     }
 }

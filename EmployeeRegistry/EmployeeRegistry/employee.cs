@@ -49,7 +49,7 @@ public class Employee
         sb.AppendLine($"Name: {this.name}");
         sb.AppendLine($"Job: {this.job.title}");
         sb.AppendLine($"Status: {this.status}");
-        sb.AppendLine($"Wage: ${this.wage.ToString()}");
+        sb.AppendLine($"Wage: {this.wage.ToString()}");
         sb.AppendLine($"Start Date: {this.startDate}");
 
         if (this.status == "TERMINATED")
