@@ -12,6 +12,7 @@ class Program
         ReadEmployeeRegistryFromFile();
         WelcomeUser();
 
+        //get initial response and start prompt loop
         int resp = -1;
         while (resp != 0)
         {
@@ -26,10 +27,13 @@ class Program
         Console.ReadLine();
     }
 
+    //welcome logic
     static void WelcomeUser()
     {
         Console.WriteLine("Welcome!");
     }
+
+    //handles action prompting until user gives valid response
     static int PromptForAction()
     {
         Console.WriteLine("What would you like to do?");
@@ -53,6 +57,7 @@ class Program
         return resp;
     }
 
+    //handles action that user specifies
     static void HandleAction(int _action)
     {
         switch (_action)
@@ -88,6 +93,7 @@ class Program
         Console.WriteLine();
     }
 
+    //reads jobcodes and associated data from file and populates global list
     static void ReadJobDataFromFile()
     {
         jobs = new List<Job>();
@@ -117,6 +123,7 @@ class Program
         }
     }
 
+    //reads employee data from file and populates global list
     static void ReadEmployeeRegistryFromFile()
     {
         employees = new List<Employee>();
@@ -145,6 +152,8 @@ class Program
                 {
                     termDate = DateTime.Parse(empParts[5]);
                 }
+
+                //create employee obj with data from file
                 Employee emp = new Employee(emplid, name, startDate, job, wage, termDate, status);
                 employees.Add(emp);
             }
@@ -155,11 +164,12 @@ class Program
         }
     }
 
+    //finds job in global list based on jobcode key
     static Job GetJobFromRegistry(string _jobcode)
     {
         for (int i = 0; i < jobs.Count; i++)
         {
-            if (jobs[i].jobcode == _jobcode)
+            if (jobs[i].jobcode == _jobcode) //found matching job
             {
                 return jobs[i];
             }
@@ -168,11 +178,12 @@ class Program
         return null;
     }
 
+    //finds employee in global list based on emplid key
     static Employee GetEmployeeFromRegistry(string _emplid)
     {
         for (int i = 0; i < employees.Count; i++)
         {
-            if (employees[i].emplid == _emplid)
+            if (employees[i].emplid == _emplid) //found matching employee
             {
                 return employees[i];
             }
@@ -181,6 +192,7 @@ class Program
         return null;
     }
 
+    //outputs complete employee registry
     static void ViewEmployeeRegistry()
     {
         Console.WriteLine("Employee Registry:");
@@ -190,6 +202,7 @@ class Program
         }
     }
 
+    //outputs complete job registry
     static void ViewJobRegistry()
     {
         Console.WriteLine("View Job Registry:");
@@ -199,6 +212,7 @@ class Program
         }
     }
 
+    //handles hiring a new employee
     static void HireNewEmployee()
     {
         //collect jobcode
@@ -241,6 +255,7 @@ class Program
         employees.Add(emp);
     }
 
+    //handles terminating an existing employee
     static void TerminateEmployee()
     {
         Console.WriteLine("Enter the emplid of the employee you with to terminate, or enter '?' if you'd like to see the employee registry.");
@@ -255,12 +270,25 @@ class Program
         {
             Console.WriteLine("What is the final day of the employee's employment?");
             DateTime termDate = DateTime.Parse(Console.ReadLine());
-            GetEmployeeFromRegistry(resp).Terminate(termDate);
+            Employee emp = GetEmployeeFromRegistry(resp);
+
+            //only terminate if employee has not yet been terminated
+            if (emp.status != "TERMINATED")
+            {
+                emp.Terminate(termDate);
+            }
+            else
+            {
+                Console.WriteLine("Employee is already terminated.");
+                TerminateEmployee();
+            }
+
             Console.WriteLine("Employee successfully terminated");
             return;
         }
     }
 
+    //outputs single employee's data
     static void ViewEmployeeInfo()
     {
         Console.WriteLine("Enter the emplid of the employee you wish to view, or enter '?' if you'd like to see the employee registry.");
@@ -279,6 +307,7 @@ class Program
         Console.WriteLine("Bad emplid entered...");
     }
 
+    //handles editing an employee's information
     static void EditEmployee()
     {
         Console.WriteLine("Enter the emplid of the employee you with to edit, or enter '?' if you'd like to see the employee registry.");
@@ -308,6 +337,7 @@ class Program
         }
     }
 
+    //handles saving (writing csv to file)
     static void Save()
     {
         string binPath = Path.Combine(Directory.GetCurrentDirectory(), "..", ".."); //get relative path to bin
