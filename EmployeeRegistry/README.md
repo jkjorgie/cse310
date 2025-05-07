@@ -1,4 +1,5 @@
 # Overview
+
 This application is a simple employee management system designed for an HR user to take basic actions. It facilitates the following:
 
 - Viewing all employees
@@ -27,6 +28,7 @@ I used C# and its delivered libraries for the application.
 - [Use Visual C# to read from and write to a text file](https://learn.microsoft.com/en-us/troubleshoot/developer/visualstudio/csharp/language-compilers/read-write-text-file)
 - [Converting a String to DateTime](https://stackoverflow.com/questions/919244/converting-a-string-to-datetime)
 - [Instantiating a Null DateTime](https://stackoverflow.com/questions/221732/datetime-null-uninitialized-value)
+- [Get Relative File Path in C#](https://stackoverflow.com/questions/40994534/get-relative-path-of-a-file-c-sharp)
 
 # Future Work
 
