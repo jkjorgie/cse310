@@ -215,44 +215,54 @@ class Program
     //handles hiring a new employee
     static void HireNewEmployee()
     {
-        //collect jobcode
-        Console.WriteLine("What is the employee's jobcode (enter '?' to see job registry)?");
-        string jobcode = Console.ReadLine();
-        if (jobcode == "?")
+        try
         {
-            ViewJobRegistry();
-            HireNewEmployee();
-        }
-        Job job = GetJobFromRegistry(jobcode);
-
-        //collect name
-        Console.WriteLine("What is the employee's name?");
-        string name = Console.ReadLine();
-
-        //collect salary
-        Console.WriteLine("What will the employee's wage be? [Format = ### USD (S/H)]");
-        string strWage = Console.ReadLine();
-        Wage wage = new Wage(strWage);
-
-        //collect start date
-        Console.WriteLine("What is the employee's start date? [Format = YYYY-MM-DD]");
-        DateTime startDate = DateTime.Parse(Console.ReadLine());
-
-        //calculate next emplid
-        int maxEmplid = 0;
-        int curEmplid = 0;
-        for (int i = 0; i < employees.Count; i++)
-        {
-            curEmplid = int.Parse(employees[i].emplid.Substring(1,4));
-            if (curEmplid > maxEmplid)
+            //collect jobcode
+            Console.WriteLine("What is the employee's jobcode (enter '?' to see job registry)?");
+            string jobcode = Console.ReadLine();
+            if (jobcode == "?")
             {
-                maxEmplid = curEmplid;
+                ViewJobRegistry();
+                HireNewEmployee();
+            }
+            else
+            {
+                Job job = GetJobFromRegistry(jobcode);
+
+                //collect name
+                Console.WriteLine("What is the employee's name?");
+                string name = Console.ReadLine();
+
+                //collect salary
+                Console.WriteLine("What will the employee's wage be? [Format = ### USD (S/H)]");
+                string strWage = Console.ReadLine();
+                Wage wage = new Wage(strWage);
+
+                //collect start date
+                Console.WriteLine("What is the employee's start date? [Format = YYYY-MM-DD]");
+                DateTime startDate = DateTime.Parse(Console.ReadLine());
+
+                //calculate next emplid
+                int maxEmplid = 0;
+                int curEmplid = 0;
+                for (int i = 0; i < employees.Count; i++)
+                {
+                    curEmplid = int.Parse(employees[i].emplid.Substring(1,4));
+                    if (curEmplid > maxEmplid)
+                    {
+                        maxEmplid = curEmplid;
+                    }
+                }
+
+                Employee emp = new Employee($"E{maxEmplid + 1}", name);
+                emp.Onboard(job, wage, startDate);
+                employees.Add(emp);
             }
         }
-
-        Employee emp = new Employee($"E{maxEmplid + 1}", name);
-        emp.Onboard(job, wage, startDate);
-        employees.Add(emp);
+        catch (Exception ex)
+        {
+            Console.WriteLine("Bad data entered.");
+        }
     }
 
     //handles terminating an existing employee
@@ -268,23 +278,29 @@ class Program
         }
         else
         {
-            Console.WriteLine("What is the final day of the employee's employment?");
-            DateTime termDate = DateTime.Parse(Console.ReadLine());
-            Employee emp = GetEmployeeFromRegistry(resp);
-
-            //only terminate if employee has not yet been terminated
-            if (emp.status != "TERMINATED")
+            try
             {
-                emp.Terminate(termDate);
-            }
-            else
-            {
-                Console.WriteLine("Employee is already terminated.");
-                TerminateEmployee();
-            }
+                Console.WriteLine("What is the final day of the employee's employment? [Format = YYYY-MM-DD]");
+                DateTime termDate = DateTime.Parse(Console.ReadLine());
+                Employee emp = GetEmployeeFromRegistry(resp);
 
-            Console.WriteLine("Employee successfully terminated");
-            return;
+                //only terminate if employee has not yet been terminated
+                if (emp.status != "TERMINATED")
+                {
+                    emp.Terminate(termDate);
+                }
+                else
+                {
+                    Console.WriteLine("Employee is already terminated.");
+                    TerminateEmployee();
+                }
+
+                Console.WriteLine("Employee successfully terminated");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Bad data entered");
+            }
         }
     }
 
@@ -300,11 +316,15 @@ class Program
         }
         else
         {
-            Console.WriteLine(GetEmployeeFromRegistry(resp).ToString());
-            return;
+            try
+            {
+                Console.WriteLine(GetEmployeeFromRegistry(resp).ToString());
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Bad employee id entered");
+            }
         }
-
-        Console.WriteLine("Bad emplid entered...");
     }
 
     //handles editing an employee's information
@@ -320,20 +340,27 @@ class Program
         }
         else
         {
-            Console.WriteLine("Employee's current info:");
-            Employee emp = GetEmployeeFromRegistry(resp);
-            Console.WriteLine(emp.ToString());
+            try
+            {
+                Console.WriteLine("Employee's current info:");
+                Employee emp = GetEmployeeFromRegistry(resp);
+                Console.WriteLine(emp.ToString());
 
-            //collect name
-            Console.WriteLine($"The employee's current name is {emp.name}. What is the employee's new name?");
-            string name = Console.ReadLine();
-            emp.name = name;
+                //collect name
+                Console.WriteLine($"The employee's current name is {emp.name}. What is the employee's new name?");
+                string name = Console.ReadLine();
+                emp.name = name;
 
-            //collect salary
-            Console.WriteLine($"The employee's current wage is {emp.wage.ToString()}. What will the employee's new wage be? [Format = ### USD (S/H)]");
-            string strWage = Console.ReadLine();
-            Wage wage = new Wage(strWage);
-            emp.wage = wage;
+                //collect salary
+                Console.WriteLine($"The employee's current wage is {emp.wage.ToString()}. What will the employee's new wage be? [Format = ### USD (S/H)]");
+                string strWage = Console.ReadLine();
+                Wage wage = new Wage(strWage);
+                emp.wage = wage;
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Bad data entered");
+            }
         }
     }
 
