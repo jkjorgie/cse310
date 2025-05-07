@@ -21,7 +21,7 @@ public class Job
     {
         var sb = new System.Text.StringBuilder();
 
-        sb.AppendLine($"Job ID: {this.jobcode}");
+        sb.AppendLine($"Jobcode: {this.jobcode}");
         sb.AppendLine($"Title: {this.title}");
         sb.AppendLine($"Description: {this.descr}");
         sb.AppendLine($"Salary Range: ${this.payRangeStart} - ${this.payRangeEnd}");
