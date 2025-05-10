@@ -1,0 +1,147 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 1rem;
+  background-color: #f8f9fa;
+}
+
+.main {
+  /* max-width: 600px; */
+  margin-left: 1rem;
+  margin-right: 1rem;
+  /* margin: auto; */
+  background: white;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+table {
+  margin: auto;
+  border-collapse: collapse;
+  margin-bottom: 1rem;
+}
+
+th,
+td {
+  border: 1px solid #ccc;
+  padding: 0.75rem;
+  text-align: left;
+}
+
+th {
+  background-color: #f1f1f1;
+}
+
+.add-url {
+  width: 100%;
+  padding: 0.75rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.header {
+  background-color: #007bff;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 6px;
+}
+
+.uses, .active-cb {
+  text-align: center;
+}
+
+.delete-row {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* td:last-child {
+  min-width: 35px;
+  max-width: 35px;
+} */
+
+.url-table td:nth-child(2) {
+  word-break: break-word;
+  white-space: normal;
+  max-width: 300px; /* or any width you'd like */
+}
+
+.delete-row:hover {
+  background-color: #b02a37;
+}
+
+.new-url-input {
+  margin-top: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+  display: none;
+}
+
+.new-url-input label {
+  font-weight: bold;
+  font-size: 0.95rem;
+}
+
+.new-url-input input[type="text"],
+.new-url-input input[type="url"] {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+  width: 100%;
+}
+
+.flex {
+  display: flex;
+}
+
+.none {
+  display: none;
+}
+
+.shorten-url {
+  width: 50%;
+  padding: 0.75rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  margin: auto;
+}
+
+.chart {
+  margin-top: 1rem;
+}

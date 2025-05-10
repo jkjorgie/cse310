@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>URL Shortener</title>
+  <meta name="description" content="Short URL creator, editor, and manager" />
+  <meta name="author" content="Jay Jorgensen" />
+  <link rel="stylesheet" href="./styles/styles.css" />
+  <script src="scripts/script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+  <header class="header">
+    <h1>URL Shortener</h1>
+  </header>
+  <div class="main">
+    <h2>Shortened URLs</h2>
+    <table class="url-table">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Original URL</th>
+          <th>Short URL</th>
+          <th class="uses">Uses</th>
+          <th class="active-cb">Active</th>
+          <th class="delete-row-hdr">Delete</th>
+        </tr>
+      </thead>
+      <tbody>
+      </tbody>
+    </table>
+    <button class="add-url" onclick="addRow()">Add URL</button>
+    <div class="new-url-input">
+      <label for="linkName">Link Name</label>
+      <input type="text" id="linkName" placeholder="e.g. Google" />
+
+      <label for="originalUrl">Original URL</label>
+      <input type="url" id="originalUrl" placeholder="https://www.google.com" />
+      <button class="shorten-url" onclick="shortenURL()">Shorten URL</button>
+    </div>
+  </div>
+  <div class="chart main">
+    <h2>Most Used Shortened URLs</h2>
+    <canvas id="usageChart" width="400" height="200"></canvas>
+  </div>
+</body>
+
+</html>

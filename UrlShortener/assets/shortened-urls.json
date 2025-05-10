@@ -1,0 +1,72 @@
+[
+  {
+    "Link Name": "Portfolio",
+    "Original URL": "https://www.janedoe.dev",
+    "Shortened Key": "port123",
+    "Uses": 102,
+    "Active": true
+  },
+  {
+    "Link Name": "GitHub Profile",
+    "Original URL": "https://github.com/janedoe",
+    "Shortened Key": "git456",
+    "Uses": 88,
+    "Active": true
+  },
+  {
+    "Link Name": "Resume PDF",
+    "Original URL": "https://www.janedoe.dev/assets/jane-doe-resume.pdf",
+    "Shortened Key": "res789",
+    "Uses": 45,
+    "Active": true
+  },
+  {
+    "Link Name": "Technical Blog",
+    "Original URL": "https://medium.com/@janedoe-tech/how-to-scale-nodejs-apis-123abc",
+    "Shortened Key": "blog234",
+    "Uses": 67,
+    "Active": false
+  },
+  {
+    "Link Name": "LinkedIn Profile",
+    "Original URL": "https://www.linkedin.com/in/jane-doe-tech/",
+    "Shortened Key": "lnk321",
+    "Uses": 112,
+    "Active": true
+  },
+  {
+    "Link Name": "Contact Page",
+    "Original URL": "https://www.janedoe.dev/contact",
+    "Shortened Key": "cont567",
+    "Uses": 28,
+    "Active": true
+  },
+  {
+    "Link Name": "Newsletter Signup",
+    "Original URL": "https://www.janedoe.dev/newsletter/signup",
+    "Shortened Key": "nl001",
+    "Uses": 13,
+    "Active": false
+  },
+  {
+    "Link Name": "Live Demo App",
+    "Original URL": "https://demo.janedoe.dev/login",
+    "Shortened Key": "app900",
+    "Uses": 56,
+    "Active": true
+  },
+  {
+    "Link Name": "Project Docs",
+    "Original URL": "https://github.com/janedoe/cool-project/wiki",
+    "Shortened Key": "docs880",
+    "Uses": 33,
+    "Active": true
+  },
+  {
+    "Link Name": "Intro Video",
+    "Original URL": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "Shortened Key": "yt777",
+    "Uses": 75,
+    "Active": true
+  }
+]
