@@ -8,18 +8,21 @@ I wrote this application to grow my javascript and front-end web development ski
 
 # Development Environment
 
-VS Code w/ Live Server
+I built the application using VS Code w/ Live Server
 
 I leveraged the following technologies:
 - JavaScript
 - HTML
 - CSS
-- chart.js CDN
+- Chart.js CDN
 
 # Useful Websites
 
 - [Shorten String Algorithm](https://www.linkedin.com/pulse/building-url-shortener-using-hash-functions-base62-conversion-singh-y01oc/)
 - [Generate Hash from String in JS](https://stackoverflow.com/questions/7616461/generate-a-hash-from-string-in-javascript)
+- [Read/Write from Browser Local Storage](https://stackoverflow.com/questions/11490869/reading-and-writing-from-localstorage)
+- [Chart.js Documentation](https://www.chartjs.org/docs/latest/)
+- [Looping JSON Arrays](https://www.microverse.org/blog/how-to-loop-through-the-array-of-json-objects-in-javascript)
 
 # Future Work
 
