@@ -5,7 +5,6 @@ function addRow() {
 }
 
 function shortenURL() {
-
   //add new url to table
   addShortenedUrlToTable(
     document.getElementById("linkName").value,
@@ -43,7 +42,7 @@ function addShortenedUrlToTable(name, origUrl, shortUrl, uses, active) {
   //create short url cell
   const cellShortUrl = document.createElement("td");
   const shortLink = document.createElement("a");
-  shortLink.href = `http://127.0.0.1:5500/UrlShortener/index.html?red=${shortUrl}`;
+  shortLink.href = `http://127.0.0.1:5500/UrlShortener/?red=${shortUrl}`;
   shortLink.textContent = shortUrl;
   shortLink.target = "_blank"; // Opens in a new tab
   cellShortUrl.appendChild(shortLink);
@@ -61,6 +60,10 @@ function addShortenedUrlToTable(name, origUrl, shortUrl, uses, active) {
   const checkbox = document.createElement("input");
   checkbox.type = "checkbox";
   checkbox.checked = active;
+  checkbox.addEventListener("change", () => {
+    saveUrlsToLocalStorage();
+    renderUsageChart(); // optional: update chart if needed
+  });
   cellActive.appendChild(checkbox);
   row.appendChild(cellActive);
 
@@ -96,7 +99,6 @@ function toggleNewUrlInputDiv() {
 }
 
 function generateShortUrlKey(url, count) {
-  
   //generate hash
   let hash = 0;
   const input = url + count;
@@ -109,8 +111,9 @@ function generateShortUrlKey(url, count) {
   const shortKey = `${Math.abs(hash).toString(36)}${count}`;
 
   // Check if the key already exists in the table
-  const existingKeys = Array.from(document.querySelectorAll(".url-table tbody tr td:nth-child(3)"))
-    .map(td => td.textContent.trim());
+  const existingKeys = Array.from(
+    document.querySelectorAll(".url-table tbody tr td:nth-child(3)")
+  ).map((td) => td.textContent.trim());
 
   // if dup exists, call this function recursively with a count appended
   if (existingKeys.includes(shortKey)) {
@@ -122,7 +125,6 @@ function generateShortUrlKey(url, count) {
 
 function loadShortenedUrls() {
   try {
-
     //grab local storage data if it exists
     const storedData = localStorage.getItem("shortenedUrls");
     if (!storedData) {
@@ -185,31 +187,31 @@ function handleRedirectByQueryParam() {
   if (!shortKey) return;
 
   const storedData = JSON.parse(localStorage.getItem("shortenedUrls")) || [];
-  const match = storedData.find(item => item["Shortened Key"] === shortKey);
+  const match = storedData.find((item) => item["Shortened Key"] === shortKey);
 
   if (match) {
-    // Increment use count
-    match["Uses"] = (parseInt(match["Uses"], 10) || 0) + 1;
+    if (match["Active"] === true) {
+      // Increment use count
+      match["Uses"] = (parseInt(match["Uses"], 10) || 0) + 1;
 
-    // Save updated data
-    localStorage.setItem("shortenedUrls", JSON.stringify(storedData));
+      // Save updated data
+      localStorage.setItem("shortenedUrls", JSON.stringify(storedData));
 
-    // Redirect to original URL
-    window.location.href = match["Original URL"];
-  } else {
-    console.warn(`No match found for short key: ${shortKey}`);
+      // Redirect to original URL
+      window.location.href = match["Original URL"];
+    } else {
+      console.warn(`No match found for short key: ${shortKey}`);
+    }
   }
 }
 
 function renderUsageChart() {
   const storedData = JSON.parse(localStorage.getItem("shortenedUrls")) || [];
 
-  const top = storedData
-    .sort((a, b) => b.Uses - a.Uses)
-    .slice(0, 5);
+  const top = storedData.sort((a, b) => b.Uses - a.Uses).slice(0, 5);
 
-  const labels = top.map(item => item["Link Name"] || item["Shortened Key"]);
-  const uses = top.map(item => item["Uses"]);
+  const labels = top.map((item) => item["Link Name"] || item["Shortened Key"]);
+  const uses = top.map((item) => item["Uses"]);
 
   const ctx = document.getElementById("usageChart").getContext("2d");
 
@@ -222,13 +224,15 @@ function renderUsageChart() {
     type: "bar",
     data: {
       labels: labels,
-      datasets: [{
-        label: "Uses",
-        data: uses,
-        backgroundColor: "rgba(54, 162, 235, 0.6)",
-        borderColor: "rgba(54, 162, 235, 1)",
-        borderWidth: 1
-      }]
+      datasets: [
+        {
+          label: "Uses",
+          data: uses,
+          backgroundColor: "rgba(54, 162, 235, 0.6)",
+          borderColor: "rgba(54, 162, 235, 1)",
+          borderWidth: 1,
+        },
+      ],
     },
     options: {
       responsive: true,
@@ -236,16 +240,15 @@ function renderUsageChart() {
         y: {
           beginAtZero: true,
           ticks: {
-            precision: 0
-          }
-        }
-      }
-    }
+            precision: 0,
+          },
+        },
+      },
+    },
   });
 }
 
 document.addEventListener("DOMContentLoaded", function () {
-
   //add listener for if the user hits enter after entering the original url
   const originalUrlInput = document.getElementById("originalUrl");
   originalUrlInput.addEventListener("keydown", function (event) {
