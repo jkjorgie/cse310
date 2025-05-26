@@ -208,18 +208,21 @@ function handleRedirectByQueryParam() {
 function renderUsageChart() {
   const storedData = JSON.parse(localStorage.getItem("shortenedUrls")) || [];
 
+  //sort json array by use count
   const top = storedData.sort((a, b) => b.Uses - a.Uses).slice(0, 5);
-
+  //get labels array
   const labels = top.map((item) => item["Link Name"] || item["Shortened Key"]);
+  //get use count array
   const uses = top.map((item) => item["Uses"]);
 
   const ctx = document.getElementById("usageChart").getContext("2d");
 
-  // Destroy existing chart if it exists
+  // nuke existing chart if it exists
   if (usageChart) {
     usageChart.destroy();
   }
 
+  // call chart library passing in the chart dom element, the labels array, and the use count array
   usageChart = new Chart(ctx, {
     type: "bar",
     data: {

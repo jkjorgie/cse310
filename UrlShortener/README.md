@@ -4,8 +4,6 @@ This is a simple application that allows the user to shorten and store long URLs
 
 I wrote this application to grow my javascript and front-end web development skills.
 
-[Software Demo Video](http://youtube.link.goes.here)
-
 # Development Environment
 
 I built the application using VS Code w/ Live Server
