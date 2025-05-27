@@ -1,0 +1,4426 @@
+[
+  {
+    "name": "Rob Bresnahan",
+    "company": "Netflix Inc",
+    "ticker": "NFLX:US",
+    "date": "13 May 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Alphabet Inc",
+    "ticker": "GOOGL:US",
+    "date": "12 May 2025",
+    "type": "buy",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Meta Platforms Inc",
+    "ticker": "META:US",
+    "date": "12 May 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Meta Platforms Inc",
+    "ticker": "META:US",
+    "date": "12 May 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "NVIDIA Corporation",
+    "ticker": "NVDA:US",
+    "date": "12 May 2025",
+    "type": "buy",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Texas Instruments Inc",
+    "ticker": "TXN:US",
+    "date": "12 May 2025",
+    "type": "buy",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "AbbVie Inc",
+    "ticker": "ABBV:US",
+    "date": "9 May 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Adobe Inc",
+    "ticker": "ADBE:US",
+    "date": "9 May 2025",
+    "type": "buy",
+    "amount": "15K–50K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Align Technology Inc",
+    "ticker": "ALGN:US",
+    "date": "9 May 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Amazon.com Inc",
+    "ticker": "AMZN:US",
+    "date": "9 May 2025",
+    "type": "buy",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Ameren Corporation",
+    "ticker": "AEE:US",
+    "date": "9 May 2025",
+    "type": "buy",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "American Tower Corp",
+    "ticker": "AMT:US",
+    "date": "9 May 2025",
+    "type": "buy",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "AMETEK Inc",
+    "ticker": "AME:US",
+    "date": "9 May 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Amgen Inc",
+    "ticker": "AMGN:US",
+    "date": "9 May 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Amphenol Corp",
+    "ticker": "APH:US",
+    "date": "9 May 2025",
+    "type": "buy",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Analog Devices Inc",
+    "ticker": "ADI:US",
+    "date": "9 May 2025",
+    "type": "buy",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Applied Materials Inc",
+    "ticker": "AMAT:US",
+    "date": "9 May 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Archer-Daniels-Midland Co",
+    "ticker": "ADM:US",
+    "date": "9 May 2025",
+    "type": "buy",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Avery Dennison Corp",
+    "ticker": "AVY:US",
+    "date": "9 May 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Bank of America Corp",
+    "ticker": "BAC:US",
+    "date": "9 May 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Biogen Inc",
+    "ticker": "BIIB:US",
+    "date": "9 May 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Bio-Techne Corp",
+    "ticker": "TECH:US",
+    "date": "9 May 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Broadridge Financial Solutions Inc",
+    "ticker": "BR:US",
+    "date": "9 May 2025",
+    "type": "buy",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Cardinal Health Inc",
+    "ticker": "CAH:US",
+    "date": "9 May 2025",
+    "type": "buy",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Caterpillar Inc",
+    "ticker": "CAT:US",
+    "date": "9 May 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "CDW Corp",
+    "ticker": "CDW:US",
+    "date": "9 May 2025",
+    "type": "buy",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Centene Corp",
+    "ticker": "CNC:US",
+    "date": "9 May 2025",
+    "type": "buy",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Charles River Laboratories International Inc",
+    "ticker": "CRL:US",
+    "date": "9 May 2025",
+    "type": "buy",
+    "amount": "15K–50K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Charter Communications Inc",
+    "ticker": "CHTR:US",
+    "date": "9 May 2025",
+    "type": "buy",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Chevron Corp",
+    "ticker": "CVX:US",
+    "date": "9 May 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Cloudflare Inc",
+    "ticker": "NET:US",
+    "date": "9 May 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "CME Group Inc",
+    "ticker": "CME:US",
+    "date": "9 May 2025",
+    "type": "buy",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Comcast Corp",
+    "ticker": "CMCSA:US",
+    "date": "9 May 2025",
+    "type": "buy",
+    "amount": "15K–50K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Conagra Brands Inc",
+    "ticker": "CAG:US",
+    "date": "9 May 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "ConocoPhillips",
+    "ticker": "COP:US",
+    "date": "9 May 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Constellation Brands Inc",
+    "ticker": "STZ:US",
+    "date": "9 May 2025",
+    "type": "buy",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Corning Inc",
+    "ticker": "GLW:US",
+    "date": "9 May 2025",
+    "type": "buy",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "CREXENDO INC",
+    "ticker": "CXDO:US",
+    "date": "9 May 2025",
+    "type": "buy",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "D.R. Horton Inc",
+    "ticker": "DHI:US",
+    "date": "9 May 2025",
+    "type": "buy",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Danaher Corp",
+    "ticker": "DHR:US",
+    "date": "9 May 2025",
+    "type": "buy",
+    "amount": "15K–50K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Darden Restaurants Inc",
+    "ticker": "DRI:US",
+    "date": "9 May 2025",
+    "type": "buy",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Sempra",
+    "ticker": "SRE:US",
+    "date": "9 May 2025",
+    "type": "buy",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Dell Technologies Inc",
+    "ticker": "DELL:US",
+    "date": "9 May 2025",
+    "type": "buy",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Delta Air Lines Inc",
+    "ticker": "DAL:US",
+    "date": "9 May 2025",
+    "type": "buy",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Devon Energy Corp",
+    "ticker": "DVN:US",
+    "date": "9 May 2025",
+    "type": "buy",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Diamondback Energy Inc",
+    "ticker": "FANG:US",
+    "date": "9 May 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "DoorDash Inc",
+    "ticker": "DASH:US",
+    "date": "9 May 2025",
+    "type": "buy",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Dover Corp",
+    "ticker": "DOV:US",
+    "date": "9 May 2025",
+    "type": "buy",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Edwards Lifesciences Corp",
+    "ticker": "EW:US",
+    "date": "9 May 2025",
+    "type": "buy",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Electronic Arts Inc",
+    "ticker": "EA:US",
+    "date": "9 May 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "EQT Corp",
+    "ticker": "EQT:US",
+    "date": "9 May 2025",
+    "type": "buy",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Equifax Inc",
+    "ticker": "EFX:US",
+    "date": "9 May 2025",
+    "type": "buy",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Eversource Energy",
+    "ticker": "ES:US",
+    "date": "9 May 2025",
+    "type": "buy",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Exxon Mobil Corp",
+    "ticker": "XOM:US",
+    "date": "9 May 2025",
+    "type": "buy",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "First Solar Inc",
+    "ticker": "FSLR:US",
+    "date": "9 May 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Ford Motor Co",
+    "ticker": "F:US",
+    "date": "9 May 2025",
+    "type": "buy",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Fortive Corp",
+    "ticker": "FTV:US",
+    "date": "9 May 2025",
+    "type": "buy",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "General Dynamics Corp",
+    "ticker": "GD:US",
+    "date": "9 May 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "General Motors Co",
+    "ticker": "GM:US",
+    "date": "9 May 2025",
+    "type": "buy",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "GoDaddy Inc",
+    "ticker": "GDDY:US",
+    "date": "9 May 2025",
+    "type": "buy",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "HENRY SCHEIN Inc",
+    "ticker": "HSIC:US",
+    "date": "9 May 2025",
+    "type": "buy",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Honeywell International Inc",
+    "ticker": "HON:US",
+    "date": "9 May 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Honeywell International Inc",
+    "ticker": "HON:US",
+    "date": "9 May 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Huntington Bancshares Inc",
+    "ticker": "HBAN:US",
+    "date": "9 May 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Ingersoll Rand Inc",
+    "ticker": "IR:US",
+    "date": "9 May 2025",
+    "type": "buy",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Iqvia Holdings Inc",
+    "ticker": "IQV:US",
+    "date": "9 May 2025",
+    "type": "buy",
+    "amount": "15K–50K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Kellogg Co",
+    "ticker": "K:US",
+    "date": "9 May 2025",
+    "type": "buy",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Keysight Technologies Inc",
+    "ticker": "KEYS:US",
+    "date": "9 May 2025",
+    "type": "buy",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "KKR &amp; Co Inc",
+    "ticker": "KKR:US",
+    "date": "9 May 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Laboratory Corp of America Holdings",
+    "ticker": "LH:US",
+    "date": "9 May 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Lam Research Corp",
+    "ticker": "LRCX:US",
+    "date": "9 May 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Linde PLC",
+    "ticker": "LIN:US",
+    "date": "9 May 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Lowe&#x27;s Cos Inc",
+    "ticker": "LOW:US",
+    "date": "9 May 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Marathon Petroleum Corp",
+    "ticker": "MPC:US",
+    "date": "9 May 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Merck &amp; Co Inc",
+    "ticker": "MRK:US",
+    "date": "9 May 2025",
+    "type": "buy",
+    "amount": "15K–50K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Meta Platforms Inc",
+    "ticker": "META:US",
+    "date": "9 May 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Meta Platforms Inc",
+    "ticker": "META:US",
+    "date": "9 May 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Microchip Technology Inc",
+    "ticker": "MCHP:US",
+    "date": "9 May 2025",
+    "type": "buy",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Micron Technology Inc",
+    "ticker": "MU:US",
+    "date": "9 May 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Microsoft Corp",
+    "ticker": "MSFT:US",
+    "date": "9 May 2025",
+    "type": "buy",
+    "amount": "15K–50K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Microsoft Corp",
+    "ticker": "MSFT:US",
+    "date": "9 May 2025",
+    "type": "buy",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Moderna Inc",
+    "ticker": "MRNA:US",
+    "date": "9 May 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Monolithic Power Systems Inc",
+    "ticker": "MPWR:US",
+    "date": "9 May 2025",
+    "type": "buy",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "MSCI Inc",
+    "ticker": "MSCI:US",
+    "date": "9 May 2025",
+    "type": "buy",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Newmont Corporation",
+    "ticker": "NEM:US",
+    "date": "9 May 2025",
+    "type": "buy",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "NextEra Energy Inc",
+    "ticker": "NEE:US",
+    "date": "9 May 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Nike Inc",
+    "ticker": "NKE:US",
+    "date": "9 May 2025",
+    "type": "buy",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Nordson Corp",
+    "ticker": "NDSN:US",
+    "date": "9 May 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "NXP Semiconductors NV",
+    "ticker": "NXPI:US",
+    "date": "9 May 2025",
+    "type": "buy",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "OKTA Inc",
+    "ticker": "OKTA:US",
+    "date": "9 May 2025",
+    "type": "buy",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Old Dominion Freight Line Inc",
+    "ticker": "ODFL:US",
+    "date": "9 May 2025",
+    "type": "buy",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Omnicom Group Inc",
+    "ticker": "OMC:US",
+    "date": "9 May 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Oracle Corp",
+    "ticker": "ORCL:US",
+    "date": "9 May 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "PENNSYLVANIA STATE UNIVERSITY",
+    "ticker": "N/A",
+    "date": "9 May 2025",
+    "type": "buy",
+    "amount": "50K–100K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "PACCAR Inc",
+    "ticker": "PCAR:US",
+    "date": "9 May 2025",
+    "type": "buy",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Palantir Technologies Inc",
+    "ticker": "PLTR:US",
+    "date": "9 May 2025",
+    "type": "buy",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "PayPal Holdings Inc",
+    "ticker": "PYPL:US",
+    "date": "9 May 2025",
+    "type": "buy",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "PepsiCo Inc",
+    "ticker": "PEP:US",
+    "date": "9 May 2025",
+    "type": "buy",
+    "amount": "15K–50K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "PTC Inc",
+    "ticker": "PTC:US",
+    "date": "9 May 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "REDDIT INC",
+    "ticker": "RDDT:US",
+    "date": "9 May 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "REDDIT INC",
+    "ticker": "RDDT:US",
+    "date": "9 May 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Regeneron Pharmaceuticals Inc",
+    "ticker": "REGN:US",
+    "date": "9 May 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Revvity Inc",
+    "ticker": "RVTY:US",
+    "date": "9 May 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Royal Caribbean Group",
+    "ticker": "RCL:US",
+    "date": "9 May 2025",
+    "type": "buy",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "S&amp;P Global Inc",
+    "ticker": "SPGI:US",
+    "date": "9 May 2025",
+    "type": "buy",
+    "amount": "15K–50K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "SANDISK CORP",
+    "ticker": "SNDK:US",
+    "date": "9 May 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Seagate Technology Holdings PLC",
+    "ticker": "STX:US",
+    "date": "9 May 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Stryker Corp",
+    "ticker": "SYK:US",
+    "date": "9 May 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Stryker Corp",
+    "ticker": "SYK:US",
+    "date": "9 May 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "SUPER MICRO COMPUTER INC",
+    "ticker": "SMCI:US",
+    "date": "9 May 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Take-Two Interactive Software Inc",
+    "ticker": "TTWO:US",
+    "date": "9 May 2025",
+    "type": "buy",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "TE Connectivity Ltd",
+    "ticker": "TEL:US",
+    "date": "9 May 2025",
+    "type": "buy",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Teledyne Technologies Inc",
+    "ticker": "TDY:US",
+    "date": "9 May 2025",
+    "type": "buy",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Tesla Inc",
+    "ticker": "TSLA:US",
+    "date": "9 May 2025",
+    "type": "buy",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Texas Pacific Land Corp",
+    "ticker": "TPL:US",
+    "date": "9 May 2025",
+    "type": "buy",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Tractor Supply Co",
+    "ticker": "TSCO:US",
+    "date": "9 May 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Truist Financial Corp",
+    "ticker": "TFC:US",
+    "date": "9 May 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Union Pacific Corp",
+    "ticker": "UNP:US",
+    "date": "9 May 2025",
+    "type": "buy",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "United Parcel Service Inc",
+    "ticker": "UPS:US",
+    "date": "9 May 2025",
+    "type": "buy",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "United Rentals Inc",
+    "ticker": "URI:US",
+    "date": "9 May 2025",
+    "type": "buy",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Unitedhealth Group Inc",
+    "ticker": "UNH:US",
+    "date": "9 May 2025",
+    "type": "buy",
+    "amount": "15K–50K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "UNIVERSITY OF WASHINGTON",
+    "ticker": "N/A",
+    "date": "9 May 2025",
+    "type": "buy",
+    "amount": "50K–100K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Verizon Communications Inc",
+    "ticker": "VZ:US",
+    "date": "9 May 2025",
+    "type": "buy",
+    "amount": "15K–50K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Viatris Inc",
+    "ticker": "VTRS:US",
+    "date": "9 May 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Visa Inc",
+    "ticker": "V:US",
+    "date": "9 May 2025",
+    "type": "buy",
+    "amount": "15K–50K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "The Walt Disney Co",
+    "ticker": "DIS:US",
+    "date": "9 May 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Waters Corp",
+    "ticker": "WAT:US",
+    "date": "9 May 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "WEC Energy Group Inc",
+    "ticker": "WEC:US",
+    "date": "9 May 2025",
+    "type": "buy",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "West Pharmaceutical Services Inc",
+    "ticker": "WST:US",
+    "date": "9 May 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Western Digital Corp",
+    "ticker": "WDC:US",
+    "date": "9 May 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Western Digital Corp",
+    "ticker": "WDC:US",
+    "date": "9 May 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Workday Inc",
+    "ticker": "WDAY:US",
+    "date": "9 May 2025",
+    "type": "buy",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Zimmer Biomet Holdings Inc",
+    "ticker": "ZBH:US",
+    "date": "9 May 2025",
+    "type": "buy",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Accenture PLC",
+    "ticker": "ACN:US",
+    "date": "29 Apr 2025",
+    "type": "sell",
+    "amount": "15K–50K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Advanced Micro Devices Inc",
+    "ticker": "AMD:US",
+    "date": "29 Apr 2025",
+    "type": "sell",
+    "amount": "15K–50K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Agilent Technologies Inc",
+    "ticker": "A:US",
+    "date": "29 Apr 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Airbnb Inc",
+    "ticker": "ABNB:US",
+    "date": "29 Apr 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Alphabet Inc",
+    "ticker": "GOOGL:US",
+    "date": "29 Apr 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Alphabet Inc",
+    "ticker": "GOOGL:US",
+    "date": "29 Apr 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Amcor PLC",
+    "ticker": "AMCR:US",
+    "date": "29 Apr 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Apple Inc",
+    "ticker": "AAPL:US",
+    "date": "29 Apr 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Arista Networks Inc",
+    "ticker": "ANET:US",
+    "date": "29 Apr 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Becton Dickinson and Co",
+    "ticker": "BDX:US",
+    "date": "29 Apr 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Best Buy Co Inc",
+    "ticker": "BBY:US",
+    "date": "29 Apr 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Boeing Co",
+    "ticker": "BA:US",
+    "date": "29 Apr 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "CSX Corp",
+    "ticker": "CSX:US",
+    "date": "29 Apr 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "DEERE &amp; COMPANY",
+    "ticker": "DE:US",
+    "date": "29 Apr 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "DexCom Inc",
+    "ticker": "DXCM:US",
+    "date": "29 Apr 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Edison International",
+    "ticker": "EIX:US",
+    "date": "29 Apr 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Eli Lilly and Co",
+    "ticker": "LLY:US",
+    "date": "29 Apr 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Emerson Electric Co",
+    "ticker": "EMR:US",
+    "date": "29 Apr 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "EOG Resources Inc",
+    "ticker": "EOG:US",
+    "date": "29 Apr 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "FedEx Corp",
+    "ticker": "FDX:US",
+    "date": "29 Apr 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Gartner Inc",
+    "ticker": "IT:US",
+    "date": "29 Apr 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "GE HEALTHCARE TECHNOLOGI INC",
+    "ticker": "GEHC:US",
+    "date": "29 Apr 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Generac Holdings Inc",
+    "ticker": "GNRC:US",
+    "date": "29 Apr 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "General Mills Inc",
+    "ticker": "GIS:US",
+    "date": "29 Apr 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "The Home Depot Inc",
+    "ticker": "HD:US",
+    "date": "29 Apr 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "HP Inc",
+    "ticker": "HPQ:US",
+    "date": "29 Apr 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "IDEXX Laboratories Inc",
+    "ticker": "IDXX:US",
+    "date": "29 Apr 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Invesco Ltd",
+    "ticker": "IVZ:US",
+    "date": "29 Apr 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Johnson &amp; Johnson",
+    "ticker": "JNJ:US",
+    "date": "29 Apr 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Kimberly-Clark Corp",
+    "ticker": "KMB:US",
+    "date": "29 Apr 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Lennar Corp",
+    "ticker": "LEN:US",
+    "date": "29 Apr 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Lululemon Athletica Inc",
+    "ticker": "LULU:US",
+    "date": "29 Apr 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Mastercard Inc",
+    "ticker": "MA:US",
+    "date": "29 Apr 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "McCormick &amp; Co Inc",
+    "ticker": "MKC:US",
+    "date": "29 Apr 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Medtronic PLC",
+    "ticker": "MDT:US",
+    "date": "29 Apr 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Mettler-Toledo International Inc",
+    "ticker": "MTD:US",
+    "date": "29 Apr 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Norfolk Southern Corp",
+    "ticker": "NSC:US",
+    "date": "29 Apr 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Occidental Petroleum Corp",
+    "ticker": "OXY:US",
+    "date": "29 Apr 2025",
+    "type": "sell",
+    "amount": "15K–50K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Pfizer Inc",
+    "ticker": "PFE:US",
+    "date": "29 Apr 2025",
+    "type": "sell",
+    "amount": "15K–50K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "The Procter &amp; Gamble Co",
+    "ticker": "PG:US",
+    "date": "29 Apr 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "QUALCOMM Inc",
+    "ticker": "QCOM:US",
+    "date": "29 Apr 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Rockwell Automation Inc",
+    "ticker": "ROK:US",
+    "date": "29 Apr 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Roper Technologies Inc",
+    "ticker": "ROP:US",
+    "date": "29 Apr 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Synopsys Inc",
+    "ticker": "SNPS:US",
+    "date": "29 Apr 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Target Corp",
+    "ticker": "TGT:US",
+    "date": "29 Apr 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Texas Instruments Inc",
+    "ticker": "TXN:US",
+    "date": "29 Apr 2025",
+    "type": "sell",
+    "amount": "15K–50K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "The Hershey Co",
+    "ticker": "HSY:US",
+    "date": "29 Apr 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "The Kraft Heinz Co",
+    "ticker": "KHC:US",
+    "date": "29 Apr 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Thermo Fisher Scientific Inc",
+    "ticker": "TMO:US",
+    "date": "29 Apr 2025",
+    "type": "sell",
+    "amount": "15K–50K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Valero Energy Corp",
+    "ticker": "VLO:US",
+    "date": "29 Apr 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Zebra Technologies Corp",
+    "ticker": "ZBRA:US",
+    "date": "29 Apr 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Zoetis Inc",
+    "ticker": "ZTS:US",
+    "date": "29 Apr 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "NORTH ALLEGHENY SCHOOL DISTRICT ALLEGHENY COUNTY PENNSYLVANIA",
+    "ticker": "N/A",
+    "date": "23 Apr 2025",
+    "type": "sell",
+    "amount": "100K–250K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Amazon.com Inc",
+    "ticker": "AMZN:US",
+    "date": "23 Apr 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Broadcom Inc",
+    "ticker": "AVGO:US",
+    "date": "23 Apr 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Broadcom Inc",
+    "ticker": "AVGO:US",
+    "date": "23 Apr 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Cloudflare Inc",
+    "ticker": "NET:US",
+    "date": "23 Apr 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "EASTON AREA SCHOOL DISTRICT NORTHAMPTON AND BUCKS COUNTIES PENNSYLVANIA",
+    "ticker": "N/A",
+    "date": "23 Apr 2025",
+    "type": "sell",
+    "amount": "100K–250K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "International Business Machines Corp",
+    "ticker": "IBM:US",
+    "date": "23 Apr 2025",
+    "type": "buy",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Intuit Inc",
+    "ticker": "INTU:US",
+    "date": "23 Apr 2025",
+    "type": "buy",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Meta Platforms Inc",
+    "ticker": "META:US",
+    "date": "23 Apr 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Microsoft Corp",
+    "ticker": "MSFT:US",
+    "date": "23 Apr 2025",
+    "type": "buy",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "MONDAY COM LTD",
+    "ticker": "N/A",
+    "date": "23 Apr 2025",
+    "type": "buy",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "OKTA Inc",
+    "ticker": "OKTA:US",
+    "date": "23 Apr 2025",
+    "type": "buy",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "PENNSYLVANIA HIGHER EDUCATIONAL FACILITIES AUTHORITY",
+    "ticker": "N/A",
+    "date": "23 Apr 2025",
+    "type": "buy",
+    "amount": "50K–100K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "PENNSYLVANIA HIGHER EDUCATIONAL FACILITIES AUTHORITY",
+    "ticker": "N/A",
+    "date": "23 Apr 2025",
+    "type": "buy",
+    "amount": "50K–100K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "PENNSYLVANIA TURNPIKE COMMISSION",
+    "ticker": "N/A",
+    "date": "23 Apr 2025",
+    "type": "buy",
+    "amount": "50K–100K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "REDDIT INC",
+    "ticker": "RDDT:US",
+    "date": "23 Apr 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Robinhood Markets Inc",
+    "ticker": "HOOD:US",
+    "date": "23 Apr 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "SANDISK CORP",
+    "ticker": "SNDK:US",
+    "date": "23 Apr 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Shopify Inc",
+    "ticker": "SHOP:US",
+    "date": "23 Apr 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Tesla Inc",
+    "ticker": "TSLA:US",
+    "date": "23 Apr 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Texas Instruments Inc",
+    "ticker": "TXN:US",
+    "date": "23 Apr 2025",
+    "type": "buy",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Texas Instruments Inc",
+    "ticker": "TXN:US",
+    "date": "23 Apr 2025",
+    "type": "buy",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Broadcom Inc",
+    "ticker": "AVGO:US",
+    "date": "10 Apr 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Cadence Design Systems Inc",
+    "ticker": "CDNS:US",
+    "date": "10 Apr 2025",
+    "type": "buy",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Intel Corp",
+    "ticker": "INTC:US",
+    "date": "10 Apr 2025",
+    "type": "buy",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "International Business Machines Corp",
+    "ticker": "IBM:US",
+    "date": "10 Apr 2025",
+    "type": "buy",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "International Business Machines Corp",
+    "ticker": "IBM:US",
+    "date": "10 Apr 2025",
+    "type": "buy",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "MercadoLibre Inc",
+    "ticker": "MELI:US",
+    "date": "10 Apr 2025",
+    "type": "buy",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "NU HOLDINGS LTD",
+    "ticker": "NU:US",
+    "date": "10 Apr 2025",
+    "type": "buy",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "NVIDIA Corporation",
+    "ticker": "NVDA:US",
+    "date": "10 Apr 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Oracle Corp",
+    "ticker": "ORCL:US",
+    "date": "10 Apr 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "REDDIT INC",
+    "ticker": "RDDT:US",
+    "date": "10 Apr 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Robinhood Markets Inc",
+    "ticker": "HOOD:US",
+    "date": "10 Apr 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Robinhood Markets Inc",
+    "ticker": "HOOD:US",
+    "date": "10 Apr 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "SBA Communications Corp",
+    "ticker": "SBAC:US",
+    "date": "10 Apr 2025",
+    "type": "buy",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Sea Ltd",
+    "ticker": "SE:US",
+    "date": "10 Apr 2025",
+    "type": "buy",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "ServiceNow Inc",
+    "ticker": "NOW:US",
+    "date": "10 Apr 2025",
+    "type": "buy",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Tesla Inc",
+    "ticker": "TSLA:US",
+    "date": "10 Apr 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Tesla Inc",
+    "ticker": "TSLA:US",
+    "date": "10 Apr 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Texas Instruments Inc",
+    "ticker": "TXN:US",
+    "date": "10 Apr 2025",
+    "type": "buy",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Uber Technologies Inc",
+    "ticker": "UBER:US",
+    "date": "10 Apr 2025",
+    "type": "buy",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "A. O. Smith Corp",
+    "ticker": "AOS:US",
+    "date": "28 Mar 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "AbbVie Inc",
+    "ticker": "ABBV:US",
+    "date": "28 Mar 2025",
+    "type": "buy",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Adobe Inc",
+    "ticker": "ADBE:US",
+    "date": "28 Mar 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Airbnb Inc",
+    "ticker": "ABNB:US",
+    "date": "28 Mar 2025",
+    "type": "buy",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Alexandria Real Estate Equities Inc",
+    "ticker": "ARE:US",
+    "date": "28 Mar 2025",
+    "type": "buy",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Alibaba Group Holding Ltd",
+    "ticker": "BABA:US",
+    "date": "28 Mar 2025",
+    "type": "buy",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Alibaba Group Holding Ltd",
+    "ticker": "BABA:US",
+    "date": "28 Mar 2025",
+    "type": "buy",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Alibaba Group Holding Ltd",
+    "ticker": "BABA:US",
+    "date": "28 Mar 2025",
+    "type": "sell",
+    "amount": "15K–50K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Align Technology Inc",
+    "ticker": "ALGN:US",
+    "date": "28 Mar 2025",
+    "type": "buy",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "APPLOVIN CORP",
+    "ticker": "APP:US",
+    "date": "28 Mar 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "APPLOVIN CORP",
+    "ticker": "APP:US",
+    "date": "28 Mar 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Arch Capital Group Ltd",
+    "ticker": "ACGL:US",
+    "date": "28 Mar 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "ASTERA LABS INC",
+    "ticker": "N/A",
+    "date": "28 Mar 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Avery Dennison Corp",
+    "ticker": "AVY:US",
+    "date": "28 Mar 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Biogen Inc",
+    "ticker": "BIIB:US",
+    "date": "28 Mar 2025",
+    "type": "buy",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Bio-Techne Corp",
+    "ticker": "TECH:US",
+    "date": "28 Mar 2025",
+    "type": "buy",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Boeing Co",
+    "ticker": "BA:US",
+    "date": "28 Mar 2025",
+    "type": "buy",
+    "amount": "15K–50K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Campbell Soup Co",
+    "ticker": "CPB:US",
+    "date": "28 Mar 2025",
+    "type": "buy",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Caterpillar Inc",
+    "ticker": "CAT:US",
+    "date": "28 Mar 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "CenterPoint Energy Inc",
+    "ticker": "CNP:US",
+    "date": "28 Mar 2025",
+    "type": "buy",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Comcast Corp",
+    "ticker": "CMCSA:US",
+    "date": "28 Mar 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Conagra Brands Inc",
+    "ticker": "CAG:US",
+    "date": "28 Mar 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "ConocoPhillips",
+    "ticker": "COP:US",
+    "date": "28 Mar 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "CREDO TECH GROUP HOLDING LTD",
+    "ticker": "N/A",
+    "date": "28 Mar 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "CREDO TECH GROUP HOLDING LTD",
+    "ticker": "N/A",
+    "date": "28 Mar 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "CSX Corp",
+    "ticker": "CSX:US",
+    "date": "28 Mar 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "CVS Health Corp",
+    "ticker": "CVS:US",
+    "date": "28 Mar 2025",
+    "type": "buy",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "D.R. Horton Inc",
+    "ticker": "DHI:US",
+    "date": "28 Mar 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Danaher Corp",
+    "ticker": "DHR:US",
+    "date": "28 Mar 2025",
+    "type": "sell",
+    "amount": "15K–50K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Sempra",
+    "ticker": "SRE:US",
+    "date": "28 Mar 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "DEERE &amp; COMPANY",
+    "ticker": "DE:US",
+    "date": "28 Mar 2025",
+    "type": "buy",
+    "amount": "15K–50K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "DexCom Inc",
+    "ticker": "DXCM:US",
+    "date": "28 Mar 2025",
+    "type": "buy",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Dollar General Corporation",
+    "ticker": "DG:US",
+    "date": "28 Mar 2025",
+    "type": "buy",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Eaton Corp PLC",
+    "ticker": "ETN:US",
+    "date": "28 Mar 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Emerson Electric Co",
+    "ticker": "EMR:US",
+    "date": "28 Mar 2025",
+    "type": "buy",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "EOG Resources Inc",
+    "ticker": "EOG:US",
+    "date": "28 Mar 2025",
+    "type": "buy",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Extra Space Storage Inc",
+    "ticker": "EXR:US",
+    "date": "28 Mar 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Exxon Mobil Corp",
+    "ticker": "XOM:US",
+    "date": "28 Mar 2025",
+    "type": "sell",
+    "amount": "15K–50K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "First Solar Inc",
+    "ticker": "FSLR:US",
+    "date": "28 Mar 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Ford Motor Co",
+    "ticker": "F:US",
+    "date": "28 Mar 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Freeport-McMoRan Inc",
+    "ticker": "FCX:US",
+    "date": "28 Mar 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "GE HEALTHCARE TECHNOLOGI INC",
+    "ticker": "GEHC:US",
+    "date": "28 Mar 2025",
+    "type": "buy",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Halliburton Co",
+    "ticker": "HAL:US",
+    "date": "28 Mar 2025",
+    "type": "buy",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "HCA Healthcare Inc",
+    "ticker": "HCA:US",
+    "date": "28 Mar 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Humana Inc",
+    "ticker": "HUM:US",
+    "date": "28 Mar 2025",
+    "type": "buy",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "IDEXX Laboratories Inc",
+    "ticker": "IDXX:US",
+    "date": "28 Mar 2025",
+    "type": "buy",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Ingersoll Rand Inc",
+    "ticker": "IR:US",
+    "date": "28 Mar 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Intel Corp",
+    "ticker": "INTC:US",
+    "date": "28 Mar 2025",
+    "type": "buy",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Intel Corp",
+    "ticker": "INTC:US",
+    "date": "28 Mar 2025",
+    "type": "buy",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Intuit Inc",
+    "ticker": "INTU:US",
+    "date": "28 Mar 2025",
+    "type": "buy",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Intuit Inc",
+    "ticker": "INTU:US",
+    "date": "28 Mar 2025",
+    "type": "buy",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Intuit Inc",
+    "ticker": "INTU:US",
+    "date": "28 Mar 2025",
+    "type": "buy",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Iqvia Holdings Inc",
+    "ticker": "IQV:US",
+    "date": "28 Mar 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Keurig Dr Pepper Inc",
+    "ticker": "KDP:US",
+    "date": "28 Mar 2025",
+    "type": "buy",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Laboratory Corp of America Holdings",
+    "ticker": "LH:US",
+    "date": "28 Mar 2025",
+    "type": "buy",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Linde PLC",
+    "ticker": "LIN:US",
+    "date": "28 Mar 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Lockheed Martin Corp",
+    "ticker": "LMT:US",
+    "date": "28 Mar 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Lululemon Athletica Inc",
+    "ticker": "LULU:US",
+    "date": "28 Mar 2025",
+    "type": "buy",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Medtronic PLC",
+    "ticker": "MDT:US",
+    "date": "28 Mar 2025",
+    "type": "buy",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Merck &amp; Co Inc",
+    "ticker": "MRK:US",
+    "date": "28 Mar 2025",
+    "type": "sell",
+    "amount": "15K–50K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Meta Platforms Inc",
+    "ticker": "META:US",
+    "date": "28 Mar 2025",
+    "type": "buy",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Microsoft Corp",
+    "ticker": "MSFT:US",
+    "date": "28 Mar 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Moderna Inc",
+    "ticker": "MRNA:US",
+    "date": "28 Mar 2025",
+    "type": "buy",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Mondelez International Inc",
+    "ticker": "MDLZ:US",
+    "date": "28 Mar 2025",
+    "type": "buy",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Nordson Corp",
+    "ticker": "NDSN:US",
+    "date": "28 Mar 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "NVIDIA Corporation",
+    "ticker": "NVDA:US",
+    "date": "28 Mar 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "NVIDIA Corporation",
+    "ticker": "NVDA:US",
+    "date": "28 Mar 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "NVIDIA Corporation",
+    "ticker": "NVDA:US",
+    "date": "28 Mar 2025",
+    "type": "buy",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Occidental Petroleum Corp",
+    "ticker": "OXY:US",
+    "date": "28 Mar 2025",
+    "type": "buy",
+    "amount": "15K–50K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Old Dominion Freight Line Inc",
+    "ticker": "ODFL:US",
+    "date": "28 Mar 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "ON Semiconductor Corp",
+    "ticker": "ON:US",
+    "date": "28 Mar 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Oracle Corp",
+    "ticker": "ORCL:US",
+    "date": "28 Mar 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Palantir Technologies Inc",
+    "ticker": "PLTR:US",
+    "date": "28 Mar 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Palantir Technologies Inc",
+    "ticker": "PLTR:US",
+    "date": "28 Mar 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Palantir Technologies Inc",
+    "ticker": "PLTR:US",
+    "date": "28 Mar 2025",
+    "type": "buy",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "PepsiCo Inc",
+    "ticker": "PEP:US",
+    "date": "28 Mar 2025",
+    "type": "sell",
+    "amount": "15K–50K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Pfizer Inc",
+    "ticker": "PFE:US",
+    "date": "28 Mar 2025",
+    "type": "buy",
+    "amount": "15K–50K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Quanta Services Inc",
+    "ticker": "PWR:US",
+    "date": "28 Mar 2025",
+    "type": "buy",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Regeneron Pharmaceuticals Inc",
+    "ticker": "REGN:US",
+    "date": "28 Mar 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Revvity Inc",
+    "ticker": "RVTY:US",
+    "date": "28 Mar 2025",
+    "type": "buy",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Rockwell Automation Inc",
+    "ticker": "ROK:US",
+    "date": "28 Mar 2025",
+    "type": "buy",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Schlumberger Ltd",
+    "ticker": "SLB:US",
+    "date": "28 Mar 2025",
+    "type": "buy",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Sea Ltd",
+    "ticker": "SE:US",
+    "date": "28 Mar 2025",
+    "type": "buy",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Snowflake Inc",
+    "ticker": "SNOW:US",
+    "date": "28 Mar 2025",
+    "type": "buy",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Snowflake Inc",
+    "ticker": "SNOW:US",
+    "date": "28 Mar 2025",
+    "type": "buy",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Steris PLC",
+    "ticker": "STE:US",
+    "date": "28 Mar 2025",
+    "type": "buy",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "SUPER MICRO COMPUTER INC",
+    "ticker": "SMCI:US",
+    "date": "28 Mar 2025",
+    "type": "buy",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Taiwan Semiconductor Manufacturing Co Ltd",
+    "ticker": "TSM:US",
+    "date": "28 Mar 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Take-Two Interactive Software Inc",
+    "ticker": "TTWO:US",
+    "date": "28 Mar 2025",
+    "type": "buy",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Teleflex Inc",
+    "ticker": "TFX:US",
+    "date": "28 Mar 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Tesla Inc",
+    "ticker": "TSLA:US",
+    "date": "28 Mar 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Tesla Inc",
+    "ticker": "TSLA:US",
+    "date": "28 Mar 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Textron Inc",
+    "ticker": "TXT:US",
+    "date": "28 Mar 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "The AES Corp",
+    "ticker": "AES:US",
+    "date": "28 Mar 2025",
+    "type": "buy",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Cigna Corp",
+    "ticker": "CI:US",
+    "date": "28 Mar 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "The Hershey Co",
+    "ticker": "HSY:US",
+    "date": "28 Mar 2025",
+    "type": "buy",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "The Kraft Heinz Co",
+    "ticker": "KHC:US",
+    "date": "28 Mar 2025",
+    "type": "buy",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "The Trade Desk Inc",
+    "ticker": "TTD:US",
+    "date": "28 Mar 2025",
+    "type": "buy",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Thermo Fisher Scientific Inc",
+    "ticker": "TMO:US",
+    "date": "28 Mar 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Twilio Inc",
+    "ticker": "TWLO:US",
+    "date": "28 Mar 2025",
+    "type": "buy",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Twilio Inc",
+    "ticker": "TWLO:US",
+    "date": "28 Mar 2025",
+    "type": "buy",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Uber Technologies Inc",
+    "ticker": "UBER:US",
+    "date": "28 Mar 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "United Parcel Service Inc",
+    "ticker": "UPS:US",
+    "date": "28 Mar 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "United Rentals Inc",
+    "ticker": "URI:US",
+    "date": "28 Mar 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Unitedhealth Group Inc",
+    "ticker": "UNH:US",
+    "date": "28 Mar 2025",
+    "type": "sell",
+    "amount": "15K–50K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Viatris Inc",
+    "ticker": "VTRS:US",
+    "date": "28 Mar 2025",
+    "type": "buy",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Visa Inc",
+    "ticker": "V:US",
+    "date": "28 Mar 2025",
+    "type": "buy",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Grainger (W.W.) Inc",
+    "ticker": "GWW:US",
+    "date": "28 Mar 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Waters Corp",
+    "ticker": "WAT:US",
+    "date": "28 Mar 2025",
+    "type": "buy",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "West Pharmaceutical Services Inc",
+    "ticker": "WST:US",
+    "date": "28 Mar 2025",
+    "type": "buy",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Weyerhaeuser Co",
+    "ticker": "WY:US",
+    "date": "28 Mar 2025",
+    "type": "buy",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Zoetis Inc",
+    "ticker": "ZTS:US",
+    "date": "28 Mar 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Zoom Video Communications Inc",
+    "ticker": "ZM:US",
+    "date": "28 Mar 2025",
+    "type": "buy",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Zoom Video Communications Inc",
+    "ticker": "ZM:US",
+    "date": "28 Mar 2025",
+    "type": "buy",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Mitch McConnell",
+    "company": "Wells Fargo &amp; Co",
+    "ticker": "WFC:US",
+    "date": "12 Mar 2025",
+    "type": "buy",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Alibaba Group Holding Ltd",
+    "ticker": "BABA:US",
+    "date": "11 Mar 2025",
+    "type": "buy",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "ASTERA LABS INC",
+    "ticker": "N/A",
+    "date": "11 Mar 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Intel Corp",
+    "ticker": "INTC:US",
+    "date": "11 Mar 2025",
+    "type": "buy",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Intel Corp",
+    "ticker": "INTC:US",
+    "date": "11 Mar 2025",
+    "type": "buy",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Meta Platforms Inc",
+    "ticker": "META:US",
+    "date": "11 Mar 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Oracle Corp",
+    "ticker": "ORCL:US",
+    "date": "11 Mar 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "REDDIT INC",
+    "ticker": "RDDT:US",
+    "date": "11 Mar 2025",
+    "type": "buy",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Robinhood Markets Inc",
+    "ticker": "HOOD:US",
+    "date": "11 Mar 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Alibaba Group Holding Ltd",
+    "ticker": "BABA:US",
+    "date": "10 Mar 2025",
+    "type": "buy",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Arista Networks Inc",
+    "ticker": "ANET:US",
+    "date": "10 Mar 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Cloudflare Inc",
+    "ticker": "NET:US",
+    "date": "10 Mar 2025",
+    "type": "buy",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "MACOM Technology Solutions Holdings Inc",
+    "ticker": "MTSI:US",
+    "date": "10 Mar 2025",
+    "type": "buy",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Microsoft Corp",
+    "ticker": "MSFT:US",
+    "date": "10 Mar 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "MONDAY COM LTD",
+    "ticker": "N/A",
+    "date": "10 Mar 2025",
+    "type": "buy",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "ON Semiconductor Corp",
+    "ticker": "ON:US",
+    "date": "10 Mar 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Robinhood Markets Inc",
+    "ticker": "HOOD:US",
+    "date": "10 Mar 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Snowflake Inc",
+    "ticker": "SNOW:US",
+    "date": "10 Mar 2025",
+    "type": "buy",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Snowflake Inc",
+    "ticker": "SNOW:US",
+    "date": "10 Mar 2025",
+    "type": "buy",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Take-Two Interactive Software Inc",
+    "ticker": "TTWO:US",
+    "date": "10 Mar 2025",
+    "type": "buy",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "The Trade Desk Inc",
+    "ticker": "TTD:US",
+    "date": "10 Mar 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "AAON Inc",
+    "ticker": "AAON:US",
+    "date": "14 Feb 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "AAON Inc",
+    "ticker": "AAON:US",
+    "date": "14 Feb 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Accenture PLC",
+    "ticker": "ACN:US",
+    "date": "14 Feb 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Adobe Inc",
+    "ticker": "ADBE:US",
+    "date": "14 Feb 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Advanced Drainage Systems Inc",
+    "ticker": "WMS:US",
+    "date": "14 Feb 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Advanced Micro Devices Inc",
+    "ticker": "AMD:US",
+    "date": "14 Feb 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Alibaba Group Holding Ltd",
+    "ticker": "BABA:US",
+    "date": "14 Feb 2025",
+    "type": "buy",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Alibaba Group Holding Ltd",
+    "ticker": "BABA:US",
+    "date": "14 Feb 2025",
+    "type": "buy",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Alibaba Group Holding Ltd",
+    "ticker": "BABA:US",
+    "date": "14 Feb 2025",
+    "type": "buy",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Alibaba Group Holding Ltd",
+    "ticker": "BABA:US",
+    "date": "14 Feb 2025",
+    "type": "buy",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Alphabet Inc",
+    "ticker": "GOOGL:US",
+    "date": "14 Feb 2025",
+    "type": "sell",
+    "amount": "50K–100K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Alphabet Inc",
+    "ticker": "GOOGL:US",
+    "date": "14 Feb 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "ANSYS Inc",
+    "ticker": "ANSS:US",
+    "date": "14 Feb 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "APPFOLIO INC",
+    "ticker": "APPF:US",
+    "date": "14 Feb 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Arista Networks Inc",
+    "ticker": "ANET:US",
+    "date": "14 Feb 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Atlassian Corp PLC",
+    "ticker": "TEAM:US",
+    "date": "14 Feb 2025",
+    "type": "buy",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Atlassian Corp PLC",
+    "ticker": "TEAM:US",
+    "date": "14 Feb 2025",
+    "type": "buy",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Atlassian Corp PLC",
+    "ticker": "TEAM:US",
+    "date": "14 Feb 2025",
+    "type": "buy",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Axon Enterprise Inc",
+    "ticker": "AXON:US",
+    "date": "14 Feb 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Berkshire Hathaway Inc",
+    "ticker": "BRK/B:US",
+    "date": "14 Feb 2025",
+    "type": "sell",
+    "amount": "15K–50K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Berkshire Hathaway Inc",
+    "ticker": "BRK/B:US",
+    "date": "14 Feb 2025",
+    "type": "sell",
+    "amount": "15K–50K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Berkshire Hathaway Inc",
+    "ticker": "BRK/B:US",
+    "date": "14 Feb 2025",
+    "type": "buy",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Berkshire Hathaway Inc",
+    "ticker": "BRK/B:US",
+    "date": "14 Feb 2025",
+    "type": "buy",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Berkshire Hathaway Inc",
+    "ticker": "BRK/B:US",
+    "date": "14 Feb 2025",
+    "type": "buy",
+    "amount": "50K–100K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Berkshire Hathaway Inc",
+    "ticker": "BRK/B:US",
+    "date": "14 Feb 2025",
+    "type": "sell",
+    "amount": "15K–50K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Berkshire Hathaway Inc",
+    "ticker": "BRK/B:US",
+    "date": "14 Feb 2025",
+    "type": "buy",
+    "amount": "15K–50K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Berkshire Hathaway Inc",
+    "ticker": "BRK/B:US",
+    "date": "14 Feb 2025",
+    "type": "buy",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Berry Global Group Inc",
+    "ticker": "BERY:US",
+    "date": "14 Feb 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Boeing Co",
+    "ticker": "BA:US",
+    "date": "14 Feb 2025",
+    "type": "sell",
+    "amount": "15K–50K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Booz Allen Hamilton Holding Corporation",
+    "ticker": "BAH:US",
+    "date": "14 Feb 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Broadcom Inc",
+    "ticker": "AVGO:US",
+    "date": "14 Feb 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Broadridge Financial Solutions Inc",
+    "ticker": "BR:US",
+    "date": "14 Feb 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Brown &amp; Brown Inc",
+    "ticker": "BRO:US",
+    "date": "14 Feb 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Cadence Design Systems Inc",
+    "ticker": "CDNS:US",
+    "date": "14 Feb 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "CDW Corp",
+    "ticker": "CDW:US",
+    "date": "14 Feb 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "CELSIUS HOLDINGS INC",
+    "ticker": "CELH:US",
+    "date": "14 Feb 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Chevron Corp",
+    "ticker": "CVX:US",
+    "date": "14 Feb 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Chipotle Mexican Grill Inc",
+    "ticker": "CMG:US",
+    "date": "14 Feb 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Churchill Downs Inc",
+    "ticker": "CHDN:US",
+    "date": "14 Feb 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Clean Harbors Inc",
+    "ticker": "CLH:US",
+    "date": "14 Feb 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "The Coca-Cola Co",
+    "ticker": "KO:US",
+    "date": "14 Feb 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Comfort Systems USA Inc",
+    "ticker": "FIX:US",
+    "date": "14 Feb 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "CREDO TECH GROUP HOLDING LTD",
+    "ticker": "N/A",
+    "date": "14 Feb 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "CREDO TECH GROUP HOLDING LTD",
+    "ticker": "N/A",
+    "date": "14 Feb 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "CREDO TECH GROUP HOLDING LTD",
+    "ticker": "N/A",
+    "date": "14 Feb 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "CrowdStrike Holdings Inc",
+    "ticker": "N/A",
+    "date": "14 Feb 2025",
+    "type": "buy",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "CrowdStrike Holdings Inc",
+    "ticker": "N/A",
+    "date": "14 Feb 2025",
+    "type": "buy",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "CrowdStrike Holdings Inc",
+    "ticker": "N/A",
+    "date": "14 Feb 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "CrowdStrike Holdings Inc",
+    "ticker": "N/A",
+    "date": "14 Feb 2025",
+    "type": "buy",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Darden Restaurants Inc",
+    "ticker": "DRI:US",
+    "date": "14 Feb 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Deckers Outdoor Corp",
+    "ticker": "DECK:US",
+    "date": "14 Feb 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Dropbox Inc",
+    "ticker": "DBX:US",
+    "date": "14 Feb 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "e.l.f. Beauty Inc",
+    "ticker": "ELF:US",
+    "date": "14 Feb 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Elevance Health Inc",
+    "ticker": "ELV:US",
+    "date": "14 Feb 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "EMCOR Group Inc",
+    "ticker": "EME:US",
+    "date": "14 Feb 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Fortinet Inc",
+    "ticker": "FTNT:US",
+    "date": "14 Feb 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "GoDaddy Inc",
+    "ticker": "GDDY:US",
+    "date": "14 Feb 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Graphic Packaging Holding Co",
+    "ticker": "GPK:US",
+    "date": "14 Feb 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "HealthEquity Inc",
+    "ticker": "HQY:US",
+    "date": "14 Feb 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "HEICO Corp",
+    "ticker": "HEI:US",
+    "date": "14 Feb 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "HEICO Corp",
+    "ticker": "HEI:US",
+    "date": "14 Feb 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Ingersoll Rand Inc",
+    "ticker": "IR:US",
+    "date": "14 Feb 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Installed Building Products Inc",
+    "ticker": "IBP:US",
+    "date": "14 Feb 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Intel Corp",
+    "ticker": "INTC:US",
+    "date": "14 Feb 2025",
+    "type": "buy",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Intel Corp",
+    "ticker": "INTC:US",
+    "date": "14 Feb 2025",
+    "type": "buy",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Intel Corp",
+    "ticker": "INTC:US",
+    "date": "14 Feb 2025",
+    "type": "buy",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Intercontinental Exchange Inc",
+    "ticker": "ICE:US",
+    "date": "14 Feb 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Intuit Inc",
+    "ticker": "INTU:US",
+    "date": "14 Feb 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Lam Research Corp",
+    "ticker": "LRCX:US",
+    "date": "14 Feb 2025",
+    "type": "buy",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Lamb Weston Holdings Inc",
+    "ticker": "LW:US",
+    "date": "14 Feb 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Linde PLC",
+    "ticker": "LIN:US",
+    "date": "14 Feb 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Lowe&#x27;s Cos Inc",
+    "ticker": "LOW:US",
+    "date": "14 Feb 2025",
+    "type": "sell",
+    "amount": "15K–50K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Lululemon Athletica Inc",
+    "ticker": "LULU:US",
+    "date": "14 Feb 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Manhattan Associates Inc",
+    "ticker": "MANH:US",
+    "date": "14 Feb 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Manhattan Associates Inc",
+    "ticker": "MANH:US",
+    "date": "14 Feb 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Manhattan Associates Inc",
+    "ticker": "MANH:US",
+    "date": "14 Feb 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Manhattan Associates Inc",
+    "ticker": "MANH:US",
+    "date": "14 Feb 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Mastercard Inc",
+    "ticker": "MA:US",
+    "date": "14 Feb 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Medpace Holdings Inc",
+    "ticker": "MEDP:US",
+    "date": "14 Feb 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Meta Platforms Inc",
+    "ticker": "META:US",
+    "date": "14 Feb 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Meta Platforms Inc",
+    "ticker": "META:US",
+    "date": "14 Feb 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Microsoft Corp",
+    "ticker": "MSFT:US",
+    "date": "14 Feb 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Microsoft Corp",
+    "ticker": "MSFT:US",
+    "date": "14 Feb 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Microsoft Corp",
+    "ticker": "MSFT:US",
+    "date": "14 Feb 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Molina Healthcare Inc",
+    "ticker": "MOH:US",
+    "date": "14 Feb 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Monolithic Power Systems Inc",
+    "ticker": "MPWR:US",
+    "date": "14 Feb 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "MSCI Inc",
+    "ticker": "MSCI:US",
+    "date": "14 Feb 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Netflix Inc",
+    "ticker": "NFLX:US",
+    "date": "14 Feb 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Nutanix Inc",
+    "ticker": "NTNX:US",
+    "date": "14 Feb 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "NVIDIA Corporation",
+    "ticker": "NVDA:US",
+    "date": "14 Feb 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "NVIDIA Corporation",
+    "ticker": "NVDA:US",
+    "date": "14 Feb 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "NVIDIA Corporation",
+    "ticker": "NVDA:US",
+    "date": "14 Feb 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "NVR Inc",
+    "ticker": "NVR:US",
+    "date": "14 Feb 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "PACCAR Inc",
+    "ticker": "PCAR:US",
+    "date": "14 Feb 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Palo Alto Networks Inc",
+    "ticker": "PANW:US",
+    "date": "14 Feb 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Paychex Inc",
+    "ticker": "PAYX:US",
+    "date": "14 Feb 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Paylocity Holding Corp",
+    "ticker": "PCTY:US",
+    "date": "14 Feb 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "PERFORMANCE FOOD GROUP COMPANY",
+    "ticker": "PFGC:US",
+    "date": "14 Feb 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Pure Storage Inc",
+    "ticker": "PSTG:US",
+    "date": "14 Feb 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Quanta Services Inc",
+    "ticker": "PWR:US",
+    "date": "14 Feb 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Resmed Inc",
+    "ticker": "RMD:US",
+    "date": "14 Feb 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Robinhood Markets Inc",
+    "ticker": "HOOD:US",
+    "date": "14 Feb 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Robinhood Markets Inc",
+    "ticker": "HOOD:US",
+    "date": "14 Feb 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Robinhood Markets Inc",
+    "ticker": "HOOD:US",
+    "date": "14 Feb 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Royal Caribbean Group",
+    "ticker": "RCL:US",
+    "date": "14 Feb 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Saia Inc",
+    "ticker": "SAIA:US",
+    "date": "14 Feb 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "salesforce.com Inc",
+    "ticker": "CRM:US",
+    "date": "14 Feb 2025",
+    "type": "sell",
+    "amount": "15K–50K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "salesforce.com Inc",
+    "ticker": "CRM:US",
+    "date": "14 Feb 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "SBA Communications Corp",
+    "ticker": "SBAC:US",
+    "date": "14 Feb 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "ServiceNow Inc",
+    "ticker": "NOW:US",
+    "date": "14 Feb 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "ServiceNow Inc",
+    "ticker": "NOW:US",
+    "date": "14 Feb 2025",
+    "type": "buy",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "ServiceNow Inc",
+    "ticker": "NOW:US",
+    "date": "14 Feb 2025",
+    "type": "buy",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "SUPER MICRO COMPUTER INC",
+    "ticker": "SMCI:US",
+    "date": "14 Feb 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Synopsys Inc",
+    "ticker": "SNPS:US",
+    "date": "14 Feb 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Take-Two Interactive Software Inc",
+    "ticker": "TTWO:US",
+    "date": "14 Feb 2025",
+    "type": "buy",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Take-Two Interactive Software Inc",
+    "ticker": "TTWO:US",
+    "date": "14 Feb 2025",
+    "type": "buy",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Take-Two Interactive Software Inc",
+    "ticker": "TTWO:US",
+    "date": "14 Feb 2025",
+    "type": "buy",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Cigna Corp",
+    "ticker": "CI:US",
+    "date": "14 Feb 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "T-Mobile US Inc",
+    "ticker": "TMUS:US",
+    "date": "14 Feb 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "TransDigm Group Inc",
+    "ticker": "TDG:US",
+    "date": "14 Feb 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "United Rentals Inc",
+    "ticker": "URI:US",
+    "date": "14 Feb 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Unitedhealth Group Inc",
+    "ticker": "UNH:US",
+    "date": "14 Feb 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "The Walt Disney Co",
+    "ticker": "DIS:US",
+    "date": "14 Feb 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "The Walt Disney Co",
+    "ticker": "DIS:US",
+    "date": "14 Feb 2025",
+    "type": "sell",
+    "amount": "15K–50K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Westinghouse Air Brake Technologies Corp",
+    "ticker": "WAB:US",
+    "date": "14 Feb 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "WillScot Mobile Mini Holdings Corp",
+    "ticker": "WSC:US",
+    "date": "14 Feb 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Zoom Video Communications Inc",
+    "ticker": "ZM:US",
+    "date": "14 Feb 2025",
+    "type": "buy",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Zoom Video Communications Inc",
+    "ticker": "ZM:US",
+    "date": "14 Feb 2025",
+    "type": "buy",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Zoom Video Communications Inc",
+    "ticker": "ZM:US",
+    "date": "14 Feb 2025",
+    "type": "buy",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Rob Bresnahan",
+    "company": "Zscaler Inc",
+    "ticker": "ZS:US",
+    "date": "14 Feb 2025",
+    "type": "sell",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Nancy Pelosi",
+    "company": "Alphabet Inc",
+    "ticker": "GOOGL:US",
+    "date": "20 Jan 2025",
+    "type": "buy",
+    "amount": "250K–500K"
+  },
+  {
+    "name": "Nancy Pelosi",
+    "company": "Amazon.com Inc",
+    "ticker": "AMZN:US",
+    "date": "20 Jan 2025",
+    "type": "buy",
+    "amount": "250K–500K"
+  },
+  {
+    "name": "Nancy Pelosi",
+    "company": "Apple Inc",
+    "ticker": "AAPL:US",
+    "date": "20 Jan 2025",
+    "type": "sell",
+    "amount": "5M–25M"
+  },
+  {
+    "name": "Nancy Pelosi",
+    "company": "NVIDIA Corporation",
+    "ticker": "NVDA:US",
+    "date": "20 Jan 2025",
+    "type": "sell",
+    "amount": "1M–5M"
+  },
+  {
+    "name": "Nancy Pelosi",
+    "company": "NVIDIA Corporation",
+    "ticker": "NVDA:US",
+    "date": "20 Jan 2025",
+    "type": "buy",
+    "amount": "500K–1M"
+  },
+  {
+    "name": "Nancy Pelosi",
+    "company": "NVIDIA Corporation",
+    "ticker": "NVDA:US",
+    "date": "20 Jan 2025",
+    "type": "buy",
+    "amount": "250K–500K"
+  },
+  {
+    "name": "Nancy Pelosi",
+    "company": "Palo Alto Networks Inc",
+    "ticker": "PANW:US",
+    "date": "20 Jan 2025",
+    "type": "buy",
+    "amount": "1M–5M"
+  },
+  {
+    "name": "Nancy Pelosi",
+    "company": "TEMPUS AI INC",
+    "ticker": "TEM:US",
+    "date": "20 Jan 2025",
+    "type": "buy",
+    "amount": "50K–100K"
+  },
+  {
+    "name": "Nancy Pelosi",
+    "company": "Vistra Corp",
+    "ticker": "VST:US",
+    "date": "20 Jan 2025",
+    "type": "buy",
+    "amount": "500K–1M"
+  },
+  {
+    "name": "Mitch McConnell",
+    "company": "Wells Fargo &amp; Co",
+    "ticker": "WFC:US",
+    "date": "5 Jan 2025",
+    "type": "buy",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Mitch McConnell",
+    "company": "Wells Fargo &amp; Co",
+    "ticker": "WFC:US",
+    "date": "16 Sept 2024",
+    "type": "buy",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Nancy Pelosi",
+    "company": "REOF XXVI LLC",
+    "ticker": "N/A",
+    "date": "12 Sept 2024",
+    "type": "buy",
+    "amount": "250K–500K"
+  },
+  {
+    "name": "Nancy Pelosi",
+    "company": "Microsoft Corp",
+    "ticker": "MSFT:US",
+    "date": "31 Jul 2024",
+    "type": "sell",
+    "amount": "1M–5M"
+  },
+  {
+    "name": "Nancy Pelosi",
+    "company": "NVIDIA Corporation",
+    "ticker": "NVDA:US",
+    "date": "31 Jul 2024",
+    "type": "buy",
+    "amount": "1M–5M"
+  },
+  {
+    "name": "Nancy Pelosi",
+    "company": "Broadcom Inc",
+    "ticker": "AVGO:US",
+    "date": "3 Jul 2024",
+    "type": "buy",
+    "amount": "1M–5M"
+  },
+  {
+    "name": "Nancy Pelosi",
+    "company": "NVIDIA Corporation",
+    "ticker": "NVDA:US",
+    "date": "3 Jul 2024",
+    "type": "buy",
+    "amount": "1M–5M"
+  },
+  {
+    "name": "Nancy Pelosi",
+    "company": "Tesla Inc",
+    "ticker": "TSLA:US",
+    "date": "3 Jul 2024",
+    "type": "sell",
+    "amount": "250K–500K"
+  },
+  {
+    "name": "Nancy Pelosi",
+    "company": "Visa Inc",
+    "ticker": "V:US",
+    "date": "3 Jul 2024",
+    "type": "sell",
+    "amount": "500K–1M"
+  },
+  {
+    "name": "Mitch McConnell",
+    "company": "Wells Fargo &amp; Co",
+    "ticker": "WFC:US",
+    "date": "13 Jun 2024",
+    "type": "buy",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Nancy Pelosi",
+    "company": "FORGE INVESTMENTS LLC",
+    "ticker": "N/A",
+    "date": "22 Mar 2024",
+    "type": "buy",
+    "amount": "1M–5M"
+  },
+  {
+    "name": "Mitch McConnell",
+    "company": "Wells Fargo &amp; Co",
+    "ticker": "WFC:US",
+    "date": "19 Mar 2024",
+    "type": "buy",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Nancy Pelosi",
+    "company": "Palo Alto Networks Inc",
+    "ticker": "PANW:US",
+    "date": "26 Feb 2024",
+    "type": "buy",
+    "amount": "500K–1M"
+  },
+  {
+    "name": "Nancy Pelosi",
+    "company": "Palo Alto Networks Inc",
+    "ticker": "PANW:US",
+    "date": "26 Feb 2024",
+    "type": "buy",
+    "amount": "100K–250K"
+  },
+  {
+    "name": "Nancy Pelosi",
+    "company": "NVIDIA Corporation",
+    "ticker": "NVDA:US",
+    "date": "22 Dec 2023",
+    "type": "buy",
+    "amount": "1M–5M"
+  },
+  {
+    "name": "Mitch McConnell",
+    "company": "Wells Fargo &amp; Co",
+    "ticker": "WFC:US",
+    "date": "18 Dec 2023",
+    "type": "buy",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Mitch McConnell",
+    "company": "Wells Fargo &amp; Co",
+    "ticker": "WFC:US",
+    "date": "15 Sept 2023",
+    "type": "buy",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Mitch McConnell",
+    "company": "CHAMBERLAIN GROUP",
+    "ticker": "N/A",
+    "date": "31 Aug 2023",
+    "type": "buy",
+    "amount": "50K–100K"
+  },
+  {
+    "name": "Nancy Pelosi",
+    "company": "Apple Inc",
+    "ticker": "AAPL:US",
+    "date": "23 Jun 2023",
+    "type": "buy",
+    "amount": "250K–500K"
+  },
+  {
+    "name": "Nancy Pelosi",
+    "company": "Microsoft Corp",
+    "ticker": "MSFT:US",
+    "date": "23 Jun 2023",
+    "type": "buy",
+    "amount": "500K–1M"
+  },
+  {
+    "name": "Mitch McConnell",
+    "company": "Wells Fargo &amp; Co",
+    "ticker": "WFC:US",
+    "date": "14 Jun 2023",
+    "type": "buy",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Nancy Pelosi",
+    "company": "Apple Inc",
+    "ticker": "AAPL:US",
+    "date": "7 Jun 2023",
+    "type": "",
+    "amount": "500K–1M"
+  },
+  {
+    "name": "Nancy Pelosi",
+    "company": "Apple Inc",
+    "ticker": "AAPL:US",
+    "date": "7 Apr 2023",
+    "type": "buy",
+    "amount": "500K–1M"
+  },
+  {
+    "name": "Nancy Pelosi",
+    "company": "REOF XXV LLC",
+    "ticker": "N/A",
+    "date": "7 Apr 2023",
+    "type": "buy",
+    "amount": "500K–1M"
+  },
+  {
+    "name": "Mitch McConnell",
+    "company": "Wells Fargo &amp; Co",
+    "ticker": "WFC:US",
+    "date": "28 Mar 2023",
+    "type": "buy",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Nancy Pelosi",
+    "company": "Roblox Corp",
+    "ticker": "RBLX:US",
+    "date": "26 Jan 2023",
+    "type": "sell",
+    "amount": "&lt; 1K"
+  },
+  {
+    "name": "Nancy Pelosi",
+    "company": "AllianceBernstein Holding LP",
+    "ticker": "AB:US",
+    "date": "13 Jan 2023",
+    "type": "sell",
+    "amount": "500K–1M"
+  },
+  {
+    "name": "Nancy Pelosi",
+    "company": "Alphabet Inc",
+    "ticker": "GOOGL:US",
+    "date": "13 Jan 2023",
+    "type": "sell",
+    "amount": "500K–1M"
+  },
+  {
+    "name": "Nancy Pelosi",
+    "company": "Alphabet Inc",
+    "ticker": "GOOGL:US",
+    "date": "13 Jan 2023",
+    "type": "sell",
+    "amount": "500K–1M"
+  },
+  {
+    "name": "Nancy Pelosi",
+    "company": "Alphabet Inc",
+    "ticker": "GOOGL:US",
+    "date": "13 Jan 2023",
+    "type": "sell",
+    "amount": "500K–1M"
+  },
+  {
+    "name": "Nancy Pelosi",
+    "company": "Netflix Inc",
+    "ticker": "NFLX:US",
+    "date": "13 Jan 2023",
+    "type": "sell",
+    "amount": "250K–500K"
+  },
+  {
+    "name": "Nancy Pelosi",
+    "company": "Netflix Inc",
+    "ticker": "NFLX:US",
+    "date": "13 Jan 2023",
+    "type": "sell",
+    "amount": "250K–500K"
+  },
+  {
+    "name": "Nancy Pelosi",
+    "company": "PayPal Holdings Inc",
+    "ticker": "PYPL:US",
+    "date": "13 Jan 2023",
+    "type": "sell",
+    "amount": "250K–500K"
+  },
+  {
+    "name": "Nancy Pelosi",
+    "company": "PayPal Holdings Inc",
+    "ticker": "PYPL:US",
+    "date": "13 Jan 2023",
+    "type": "sell",
+    "amount": "250K–500K"
+  },
+  {
+    "name": "Nancy Pelosi",
+    "company": "REOF XX LLC",
+    "ticker": "N/A",
+    "date": "13 Jan 2023",
+    "type": "buy",
+    "amount": "15K–50K"
+  },
+  {
+    "name": "Nancy Pelosi",
+    "company": "Roblox Corp",
+    "ticker": "RBLX:US",
+    "date": "13 Jan 2023",
+    "type": "sell",
+    "amount": "100K–250K"
+  },
+  {
+    "name": "Nancy Pelosi",
+    "company": "salesforce.com Inc",
+    "ticker": "CRM:US",
+    "date": "13 Jan 2023",
+    "type": "sell",
+    "amount": "&lt; 1K"
+  },
+  {
+    "name": "Nancy Pelosi",
+    "company": "Tesla Inc",
+    "ticker": "TSLA:US",
+    "date": "13 Jan 2023",
+    "type": "sell",
+    "amount": "500K–1M"
+  },
+  {
+    "name": "Nancy Pelosi",
+    "company": "The Walt Disney Co",
+    "ticker": "DIS:US",
+    "date": "13 Jan 2023",
+    "type": "sell",
+    "amount": "500K–1M"
+  },
+  {
+    "name": "Mitch McConnell",
+    "company": "The Kroger Co",
+    "ticker": "KR:US",
+    "date": "29 Dec 2022",
+    "type": "buy",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Mitch McConnell",
+    "company": "Wells Fargo &amp; Co",
+    "ticker": "WFC:US",
+    "date": "29 Dec 2022",
+    "type": "buy",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Nancy Pelosi",
+    "company": "Visa Inc",
+    "ticker": "V:US",
+    "date": "1 Dec 2022",
+    "type": "sell",
+    "amount": "1M–5M"
+  },
+  {
+    "name": "Nancy Pelosi",
+    "company": "Alphabet Inc",
+    "ticker": "GOOGL:US",
+    "date": "17 Oct 2022",
+    "type": "buy",
+    "amount": "1M–5M"
+  },
+  {
+    "name": "Nancy Pelosi",
+    "company": "Micron Technology Inc",
+    "ticker": "MU:US",
+    "date": "17 Oct 2022",
+    "type": "sell",
+    "amount": "15K–50K"
+  },
+  {
+    "name": "Nancy Pelosi",
+    "company": "NVIDIA Corporation",
+    "ticker": "NVDA:US",
+    "date": "17 Oct 2022",
+    "type": "sell",
+    "amount": "100K–250K"
+  },
+  {
+    "name": "Nancy Pelosi",
+    "company": "The Walt Disney Co",
+    "ticker": "DIS:US",
+    "date": "17 Oct 2022",
+    "type": "sell",
+    "amount": "&lt; 1K"
+  },
+  {
+    "name": "Mitch McConnell",
+    "company": "Wells Fargo &amp; Co",
+    "ticker": "WFC:US",
+    "date": "26 Sept 2022",
+    "type": "buy",
+    "amount": "1K–15K"
+  },
+  {
+    "name": "Nancy Pelosi",
+    "company": "REOF XX LLC",
+    "ticker": "N/A",
+    "date": "9 Sept 2022",
+    "type": "buy",
+    "amount": "15K–50K"
+  },
+  {
+    "name": "Nancy Pelosi",
+    "company": "NVIDIA Corporation",
+    "ticker": "NVDA:US",
+    "date": "27 Jul 2022",
+    "type": "sell",
+    "amount": "1M–5M"
+  },
+  {
+    "name": "Nancy Pelosi",
+    "company": "Apple Inc",
+    "ticker": "AAPL:US",
+    "date": "14 Jul 2022",
+    "type": "sell",
+    "amount": "100K–250K"
+  },
+  {
+    "name": "Nancy Pelosi",
+    "company": "NVIDIA Corporation",
+    "ticker": "NVDA:US",
+    "date": "14 Jul 2022",
+    "type": "buy",
+    "amount": "1M–5M"
+  },
+  {
+    "name": "Nancy Pelosi",
+    "company": "Visa Inc",
+    "ticker": "V:US",
+    "date": "14 Jul 2022",
+    "type": "sell",
+    "amount": "1M–5M"
+  },
+  {
+    "name": "Mitch McConnell",
+    "company": "Wells Fargo &amp; Co",
+    "ticker": "WFC:US",
+    "date": "13 Jun 2022",
+    "type": "buy",
+    "amount": "1K–15K"
+  }
+]

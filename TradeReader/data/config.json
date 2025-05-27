@@ -1,0 +1,15 @@
+{
+  "targetUrl": "https://www.capitoltrades.com/trades",
+  "pageSize": 96,
+  "politicians": [
+    {
+      "politician": "P000197"
+    },
+    {
+      "politician": "M000355"
+    },
+    {
+      "politician": "B001327"
+    }
+  ]
+}

@@ -12,15 +12,16 @@
 
 # Development Environment
 
-{Describe the tools that you used to develop the software}
+I used VS Code and Microsoft's C++ plugin to develop the application.
 
-{Describe the programming language that you used and any libraries.}
+I leveraged the following languages/libaries:
+* C++
+* Homebrew
+* curl
 
 # Useful Websites
 
-{Make a list of websites that you found helpful in this project}
-
-- [Web Site Name](http://url.link.goes.here)
+- [curl Install for MacOS](https://everything.curl.dev/install/macos.html)
 - [Web Site Name](http://url.link.goes.here)
 
 # Future Work
