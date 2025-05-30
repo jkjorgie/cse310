@@ -1,14 +1,8 @@
 # Overview
 
-{Important! Do not say in this section that this is college assignment. Talk about what you are trying to accomplish as a software engineer to further your learning.}
+This application reads the stock trades made by politicians by scraping the capitoltrades.com site and storing the trade data in a json file. Information telling the application how to run is stored in a config file which designates information like which politicians' trades to scrape, which traded stocks to scrape, and the number of trades to pull in each batch. The application is smart enough to know when it has pulled a full batch of trades based on the specified search parameters.
 
-{Provide a description of the software that you wrote to demonstrate the C++ language.}
-
-{Describe your purpose for writing this software.}
-
-{Provide a link to your YouTube demonstration. It should be a 4-5 minute demo of the software running and a walkthrough of the code. Focus should be on sharing what you learned about the language syntax.}
-
-[Software Demo Video](http://youtube.link.goes.here)
+I built this application as a start towards verifying whether it's true that US politicians trade stock at a significantly higher margin compared to market averages, and, if so, potentially integrate with an API that makes trades in my portfolio that duplicate high-performing politicians.
 
 # Development Environment
 
@@ -18,16 +12,18 @@ I leveraged the following languages/libaries:
 * C++
 * Homebrew
 * curl
+* json.hpp (open source library by Niels Lohmann that facilitates easy json reading/writing)
+* Regex
 
 # Useful Websites
 
 - [curl Install for MacOS](https://everything.curl.dev/install/macos.html)
-- [Web Site Name](http://url.link.goes.here)
+- [Json.hpp by Niels Lohmann](https://github.com/nlohmann/json)
+- [Get Current Date/Time in C++](https://www.w3schools.com/cpp/cpp_date.asp)
+- [Regex in C++](https://www.softwaretestinghelp.com/regex-in-cpp/)
 
 # Future Work
 
-{Make a list of things that you need to fix, improve, and add in the future.}
-
-- Item 1
-- Item 2
-- Item 3
+- Build algorithms that identify high trade performers
+- Integrate with Alpaca API to automate parallel trades
+- Implement notification engine when key tickers are traded and/or large amounts are traded

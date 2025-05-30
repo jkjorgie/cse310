@@ -15,13 +15,22 @@
 // globals
 std::vector<Trade> trades;
 std::vector<std::string> politicians;
+std::vector<std::string> issuers;
 std::string url;
+std::vector<std::string> runArgs;
 int pageSize;
 
 using json = nlohmann::json;
 
 // outputs log with timestamp
 void Log(std::string text_)
+{
+    auto now = std::chrono::system_clock::now();
+    std::time_t now_c = std::chrono::system_clock::to_time_t(now);
+    std::cout << std::put_time(std::localtime(&now_c), "%Y-%m-%d %H:%M:%S") << " " << text_ << std::endl;
+}
+
+void Alert(std::string text_)
 {
     auto now = std::chrono::system_clock::now();
     std::time_t now_c = std::chrono::system_clock::to_time_t(now);
@@ -54,11 +63,16 @@ void ReadConfig() {
     Log("Target URL: " + url);
     Log("Page Size: " + std::to_string(pageSize));
 
-    politicians.clear();
-
     // read all politician IDs to watch
+    politicians.clear();
     for (const auto& entry : j["politicians"]) {
         politicians.push_back(entry["politician"]);
+    }
+
+    // read all issuers to watch
+    issuers.clear();
+    for (const auto& entry : j["issuers"]) {
+        issuers.push_back(entry["issuer"]);
     }
 }
 
@@ -135,6 +149,11 @@ void ReadTrades(std::string html_)
         // if the data is found, i.e. the row isn't empty (header row), create a new Trade and add it to the trades vector
         if (!name.empty())
         {
+            // this didn't work unfortunately
+            /*if (amount == "5M-25M") {
+                std::system("osascript -e 'display notification \"Nance has struck again!\" with title \"Trade Reader\"'");
+            }*/
+
             Trade trade;
             trade.setName(name);
             trade.setDate(trade_date);
@@ -168,24 +187,60 @@ void SaveTradesToJson()
 // generate base url
 std::string GetBaseUrl() {
 
+    // handle politician params
     std::string poliParams = "";
-    for (size_t i = 0; i < politicians.size(); i++)
+    if (std::find(runArgs.begin(), runArgs.end(), "p") != runArgs.end()) // argument was passed in to look at configured politicians
     {
-        if (i > 0) {
-            poliParams += "&";
+        for (size_t i = 0; i < politicians.size(); i++)
+        {
+            if (i > 0)
+            {
+                poliParams += "&";
+            }
+            poliParams += "politician=" + politicians[i];
         }
-        poliParams += "politician=" + politicians[i];
     }
 
-    std::string fullUrl = url + "?" + poliParams + "&pageSize=" + std::to_string(pageSize);
+    // handle issuer params
+    std::string issuerParams = "";
+    if (std::find(runArgs.begin(), runArgs.end(), "i") != runArgs.end()) // argument was passed in to look at configured issuers
+    {
+        for (size_t i = 0; i < issuers.size(); i++)
+        {
+            if (i > 0)
+            {
+                issuerParams += "&";
+            }
+            issuerParams += "issuer=" + issuers[i];
+        }
+    }
+
+    // handle page size config
+    if (pageSize == 0) {
+        pageSize = 96; // default to 96 if config not specified
+    }
+
+    // concatenate full url
+    std::string fullUrl = url + "?pageSize=" + std::to_string(pageSize);
+    if (!poliParams.empty()) {
+        fullUrl += "&" + poliParams;
+    }
+    if (!issuerParams.empty()) {
+        fullUrl += "&" + issuerParams;
+    }
 
     Log("Base url: " + fullUrl);
 
     return fullUrl;
 }
 
-int main()
+int main(int argc, char* argv[])
 {
+    // copy args to global
+    for (int i = 0; i < argc; ++i) {
+        runArgs.push_back(argv[i]);
+    }
+
     // loop every 5 min until app is killed with ctrl+c in terminal
     while (true)
     {
