@@ -19,6 +19,7 @@ std::vector<std::string> issuers;
 std::string url;
 std::vector<std::string> runArgs;
 int pageSize;
+int sleepTime;
 
 using json = nlohmann::json;
 
@@ -34,7 +35,7 @@ void Alert(std::string text_)
 {
     auto now = std::chrono::system_clock::now();
     std::time_t now_c = std::chrono::system_clock::to_time_t(now);
-    std::cout << std::put_time(std::localtime(&now_c), "%Y-%m-%d %H:%M:%S") << " " << text_ << std::endl;
+    std::cout << "\033[1;31m" << std::put_time(std::localtime(&now_c), "%Y-%m-%d %H:%M:%S") << " " << text_ << "\033[0m" << std::endl;
 }
 
 size_t WriteCallback(void *contents, size_t size, size_t nmemb, void *userp)
@@ -60,8 +61,10 @@ void ReadConfig() {
     // read general properties
     url = j["targetUrl"];
     pageSize = j["pageSize"];
+    sleepTime = j["sleepTime"];
     Log("Target URL: " + url);
     Log("Page Size: " + std::to_string(pageSize));
+    Log("Sleep Time: " + std::to_string(sleepTime));
 
     // read all politician IDs to watch
     politicians.clear();
@@ -162,6 +165,11 @@ void ReadTrades(std::string html_)
             trade.setCompany(company);
             trade.setTicker(ticker);
             trades.push_back(trade);
+
+            if (amount == "1M–5M" || amount == "5M–25M") // output alert for high value trades
+            { 
+                Alert(trade.toString());
+            }
 
             // std::cout << trade.toString() << "\n";
         }
@@ -277,8 +285,8 @@ int main(int argc, char* argv[])
 
         Log("Finished trade reads... waiting for next cycle");
 
-        // wait for 12 hours before pinging again
-        std::this_thread::sleep_for(std::chrono::hours(12));
+        // sleep until specified time limit has occurred
+        std::this_thread::sleep_for(std::chrono::minutes(sleepTime));
     }
 
     return 0;

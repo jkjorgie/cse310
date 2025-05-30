@@ -1,6 +1,7 @@
 {
   "targetUrl": "https://www.capitoltrades.com/trades",
   "pageSize": 96,
+  "sleepTime": 720,
   "politicians": [
     {
       "politician": "P000197"
