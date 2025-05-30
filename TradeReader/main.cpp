@@ -18,6 +18,7 @@ std::vector<std::string> politicians;
 std::vector<std::string> issuers;
 std::string url;
 std::vector<std::string> runArgs;
+std::vector<int> tradeSizes;
 int pageSize;
 int sleepTime;
 
@@ -35,7 +36,7 @@ void Alert(std::string text_)
 {
     auto now = std::chrono::system_clock::now();
     std::time_t now_c = std::chrono::system_clock::to_time_t(now);
-    std::cout << "\033[1;31m" << std::put_time(std::localtime(&now_c), "%Y-%m-%d %H:%M:%S") << " " << text_ << "\033[0m" << std::endl;
+    std::cout << "\033[1;31m" << std::put_time(std::localtime(&now_c), "%Y-%m-%d %H:%M:%S") << "\n" << text_ << "\033[0m" << std::endl;
 }
 
 size_t WriteCallback(void *contents, size_t size, size_t nmemb, void *userp)
@@ -76,6 +77,12 @@ void ReadConfig() {
     issuers.clear();
     for (const auto& entry : j["issuers"]) {
         issuers.push_back(entry["issuer"]);
+    }
+
+    // read all trade sizes to watch
+    tradeSizes.clear();
+        for (const auto& entry : j["tradeSizes"]) {
+        tradeSizes.push_back(entry["tradeSize"]);
     }
 }
 
@@ -152,11 +159,6 @@ void ReadTrades(std::string html_)
         // if the data is found, i.e. the row isn't empty (header row), create a new Trade and add it to the trades vector
         if (!name.empty())
         {
-            // this didn't work unfortunately
-            /*if (amount == "5M-25M") {
-                std::system("osascript -e 'display notification \"Nance has struck again!\" with title \"Trade Reader\"'");
-            }*/
-
             Trade trade;
             trade.setName(name);
             trade.setDate(trade_date);
@@ -166,12 +168,15 @@ void ReadTrades(std::string html_)
             trade.setTicker(ticker);
             trades.push_back(trade);
 
-            if (amount == "1M–5M" || amount == "5M–25M") // output alert for high value trades
-            { 
-                Alert(trade.toString());
-            }
+            if (std::find(runArgs.begin(), runArgs.end(), "a") != runArgs.end()) // argument was passed in to alert on high values
+            {
+                if (amount == "1M–5M" || amount == "5M–25M") // output alert for high value trades
+                {
+                    Alert(trade.toString());
+                }
 
-            // std::cout << trade.toString() << "\n";
+                // std::cout << trade.toString() << "\n";
+            }
         }
     }
 }
@@ -223,6 +228,20 @@ std::string GetBaseUrl() {
         }
     }
 
+    // handle trade size params
+    std::string sizeParams = "";
+    if (std::find(runArgs.begin(), runArgs.end(), "s") != runArgs.end()) // argument was passed in to look at configured trade sizes
+    {
+        for (size_t i = 0; i < tradeSizes.size(); i++)
+        {
+            if (i > 0)
+            {
+                sizeParams += "&";
+            }
+            sizeParams += "tradeSize=" + std::to_string(tradeSizes[i]);
+        }
+    }
+
     // handle page size config
     if (pageSize == 0) {
         pageSize = 96; // default to 96 if config not specified
@@ -235,6 +254,9 @@ std::string GetBaseUrl() {
     }
     if (!issuerParams.empty()) {
         fullUrl += "&" + issuerParams;
+    }
+    if (!sizeParams.empty()) {
+        fullUrl += "&" + sizeParams;
     }
 
     Log("Base url: " + fullUrl);

@@ -20,5 +20,16 @@
     {
       "issuer": "435119"
     }
+  ],
+  "tradeSizes": [
+    {
+      "tradeSize": 8
+    },
+    {
+      "tradeSize": 9
+    },
+    {
+      "tradeSize": 10
+    }
   ]
 }
