@@ -1,6 +1,6 @@
 # Overview
 
-This application reads the stock trades made by politicians by scraping the capitoltrades.com site and storing the trade data in a json file. Information telling the application how to run is stored in a config file which designates information like which politicians' trades to scrape, which traded stocks to scrape, and the number of trades to pull in each batch. The application is smart enough to know when it has pulled a full batch of trades based on the specified search parameters.
+This application reads the stock trades made by politicians by scraping the capitoltrades.com site and storing the trade data in a json file. Information telling the application how to run is stored in a config file which designates information like which politicians' trades to scrape, which tickers/issuers to scrape, and the number of trades to pull in each batch. The application is smart enough to know when it has pulled a full batch of trades based on the specified search parameters.
 
 I built this application as a start towards verifying whether it's true that US politicians trade stock at a significantly higher margin compared to market averages, and, if so, potentially integrate with an API that makes trades in my portfolio that duplicate high-performing politicians.
 
