@@ -33,5 +33,5 @@ private:
     std::string company_;
     std::string ticker_;
 };
-
+ 
 #endif // TRADE_H

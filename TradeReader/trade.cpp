@@ -56,7 +56,7 @@ std::string Trade::toJSONObj() const {
         << "  }";
     return oss.str();
 }
-
+ 
 std::string Trade::toString() const {
     std::ostringstream oss;
     oss << "Name: " << name_ << "\n"
